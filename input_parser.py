@@ -1,5 +1,3 @@
-import re
-
 # Class that defines a parser for .lp files, i.e. files that contain optimization programs.
 class LPParser:
     def __init__(self):
@@ -14,17 +12,13 @@ class LPParser:
             lines = f.readlines()
 
         # Remove empty lines
-        non_empty_lines = [line.strip() for line in lines if (line != '' and line != '\n')]
+        non_empty_lines = [line.strip() for line in lines if (line != '' and line != '\n' and (not line.startswith('\\')))]
         
         line_idx = 0
         while non_empty_lines[line_idx] != 'End':
             line = non_empty_lines[line_idx]
-            
-            if line.startswith('\\'):
-                line_idx += 1
-                continue
 
-            elif line == "Maximize":
+            if line == "Maximize":
                 # Assume only one objective function, could extend later.
                 # Also, remove whitespace in the next line.
                 self.parse_obj_function(non_empty_lines[line_idx + 1].replace(' ', ''), filename)
@@ -36,14 +30,11 @@ class LPParser:
             # Now we have all constraints, and the objective function.
             # However, need to update number of variables now, as maybe the objective function or constraints
             # don't contain all variables
-            # TODO: Maybe some variables are not present anywhere.
-
 
     def parse_obj_function(self, string_to_parse, filename):
         parts = string_to_parse.split(":")
 
         if len(parts) < 2:
-            print(string_to_parse)
             raise Exception(f"Invalid objective function in {filename}.")
 
         # Assume everything is +, will do more later.
