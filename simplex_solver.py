@@ -1,4 +1,3 @@
-from tableau import Tableau
 from input_parser import LPParser
 import numpy as np
 
@@ -6,8 +5,38 @@ class SimplexSolver:
     def __init__(self, pivot_rule: str):
         self.pivot_rule = pivot_rule
 
+    def get_tableau_from_lp(self, lp_parser: LPParser):
+        num_constraints = len(lp_parser.constraints)
+        num_variables = len(lp_parser.variables)
+
+        # We need num_constraints + 1 rows because we have one more row for the objective function
+        # We need num_variables + len(num_constraints) + 1 because for each constraint, we would have a slack variable, 
+        # as all constraints are of type <= for now, and also one more column for the rhs of the constraints
+        tableau = np.zeros((num_constraints+1, num_variables+num_constraints+1))
+        list_of_variables = sorted(list(lp_parser.variables))
+
+        i = 0
+        for constraint_name, var_dict in lp_parser.constraints.items():
+            for variable, coefficient in var_dict.items():
+                if variable in lp_parser.variables:
+                    j = list_of_variables.index(variable)
+
+                    tableau[i, j] = coefficient
+            
+            tableau[i, -1] = lp_parser.constraints[constraint_name]['rhs']
+            tableau[i, i + num_variables] = 1
+            i += 1
+
+        for variable, coefficient in lp_parser.obj_function.items():
+            if variable in lp_parser.variables:
+                j = list_of_variables.index(variable)
+
+                tableau[-1, j] = -coefficient
+
+        return tableau
+
     def solve(self, lp_parser: LPParser):
-        tableau = Tableau(lp_parser)
+        tableau = self.get_tableau_from_lp(lp_parser)
         
         while True:
             pivot_column = self.find_entering_variable(tableau)
@@ -17,22 +46,35 @@ class SimplexSolver:
                 break
             
             denominator = tableau[:-1, pivot_column]
-            ratios = np.where(denominator > 0, tableau[:-1, -1] / denominator, np.inf)
+            ratios = np.where(denominator != 0, tableau[:-1, -1] / denominator, np.inf)
 
             leaving_variable_index = -1
             leaving_variable_index = np.argmin(ratios[ratios > 0])
 
             # If all ratios are infinity, it means that the problem is unbounded
             if leaving_variable_index == -1 or ratios[leaving_variable_index] == np.inf:
-                print('The solution is unbounded.')
+                print('The linear program is unbounded.')
                 return
 
             # Now we found leaving variable (denoted by leaving_variable_index). Now we just have to adjust the tableau.
-            self.adjust_tableau(pivot_column, leaving_variable_index)
+            self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
 
         print(f'The maximum value of the objective function is {tableau[-1, -1]}')
+        with open('test.txt', 'w') as f:
+            f.write(str(tableau))
 
-    def adjust_tableau(self, pivot_column, leaving_variable_index):
+    def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
+        # Set the pivot row to have 1 in the pivot column.
+        tableau[leaving_variable_index, :] *= (1 / tableau[leaving_variable_index, pivot_column])
+
+        for i in range(tableau.shape[0]):
+            if i == leaving_variable_index:
+                continue
+
+            if tableau[i, pivot_column] == 0:
+                continue
+
+            tableau[i, :] -= tableau[leaving_variable_index, :] * tableau[i, pivot_column]
 
 
     def find_entering_variable(self, tableau):
