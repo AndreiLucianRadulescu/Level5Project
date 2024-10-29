@@ -15,7 +15,6 @@ class Tableau:
 
         i = 0
         for constraint_name, var_dict in lp_parser.constraints.items():
-            print(var_dict)
             for variable, coefficient in var_dict.items():
                 if variable in lp_parser.variables:
                     j = list_of_variables.index(variable)
@@ -40,3 +39,9 @@ class Tableau:
 
     def multiply_column(self, col_idx, value):
         self.tableau[:, col_idx] *= value
+
+    def add_row(self, row_to_idx, row_from_idx, coefficient):
+        self.tableau[row_to_idx, :] += coefficient * self.tableau[row_from_idx, :]
+    
+    def add_column(self, column_to_idx, column_from_idx, coefficient):
+        self.tableau[:, column_to_idx] += coefficient * self.tableau[:, column_from_idx]
