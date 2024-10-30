@@ -38,7 +38,8 @@ class LPParser:
             raise Exception(f"Invalid objective function in {filename}.")
 
         # Assume everything is +, will do more later.
-        terms = parts[1].split('+')
+        terms = self.preprocess_terms(parts[1])
+        terms = [t for t in terms.split('+') if t != '']
         for term in terms:
             coefficient, variable = self.split_coefficient_and_variable(term)
 
@@ -55,17 +56,26 @@ class LPParser:
 
         try:
             coefficient = ''
-            while idx < len(expr) and '0' <= (expr[idx]) <= '9':
+            while idx < len(expr) and ('0' <= (expr[idx]) <= '9' or expr[idx] == '-'):
                 coefficient += expr[idx]
                 idx += 1
 
             if idx == 0:
                 coefficient = 1
+
+            elif idx == 1 and expr[0] == '-':
+                coefficient = -1
+
             else:
                 coefficient = int(coefficient)
+
             return coefficient, expr[idx:]
         except:
             return None, None
+        
+    def preprocess_terms(self, terms_str):
+        terms_str = terms_str.replace('-', '+-')
+        return terms_str
     
     def parse_constraints(self, lines, starting_idx, filename):
         # Iterate until the "End". To be changed when I add bounds.
@@ -76,7 +86,8 @@ class LPParser:
 
             terms, bound = parts[1].split('<=')
             self.constraints[parts[0]]['rhs'] = bound
-            terms = terms.split('+')
+            terms = self.preprocess_terms(terms)
+            terms = [t for t in terms.split('+') if t != '']
 
             for term in terms:
                 coefficient, variable = self.split_coefficient_and_variable(term)

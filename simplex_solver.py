@@ -45,23 +45,30 @@ class SimplexSolver:
                 print('Optimal solution has been found.')
                 break
             
+            # Calculate the ratios for the pivot operation
             denominator = tableau[:-1, pivot_column]
             ratios = np.where(denominator != 0, tableau[:-1, -1] / denominator, np.inf)
 
-            leaving_variable_index = -1
-            leaving_variable_index = np.argmin(ratios[ratios > 0])
+            # Only consider positive ratios
+            positive_ratios = ratios[ratios > 0]
 
-            # If all ratios are infinity, it means that the problem is unbounded
-            if leaving_variable_index == -1 or ratios[leaving_variable_index] == np.inf:
+            if positive_ratios.size == 0:
                 print('The linear program is unbounded.')
                 return
 
-            # Now we found leaving variable (denoted by leaving_variable_index). Now we just have to adjust the tableau.
+            # Get the index of leaving variable
+            leaving_variable_index = np.argmin(ratios[ratios > 0])
+            leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
+
+            # If invalid index, problem is unbounded
+            if ratios[leaving_variable_index] == np.inf:
+                print('The linear program is unbounded.')
+                return
+
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
 
         print(f'The maximum value of the objective function is {tableau[-1, -1]}')
-        with open('test.txt', 'w') as f:
-            f.write(str(tableau))
+        print(tableau)
 
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
         # Set the pivot row to have 1 in the pivot column.
