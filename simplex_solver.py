@@ -53,7 +53,7 @@ class SimplexSolver:
             positive_ratios = ratios[ratios > 0]
 
             if positive_ratios.size == 0:
-                print('The linear program is unbounded.')
+                print('The linear program is unbounded/unfeasible, or simplex just cannot progress further.')
                 return
 
             # Get the index of leaving variable
