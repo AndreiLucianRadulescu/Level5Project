@@ -1,6 +1,6 @@
 Maximize
- obj: 2x-3y
+ obj: x2
 Subject To
- c1: 3x+4y<=24
- c2: 7x-4y<=16
+ c1: -x1+x2<=0
+ c2: x1 <= 2
 End
