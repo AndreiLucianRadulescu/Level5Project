@@ -2,7 +2,6 @@ from input_parser import LPParser
 import numpy as np
 from fractions import Fraction
 import math
-LARGE_NUMBER = Fraction(10**10)
 
 class SimplexSolver:
     def __init__(self, pivot_rule: str):
@@ -57,24 +56,29 @@ class SimplexSolver:
                 if denominator[i] != 0:
                     ratios.append(tableau[i, -1] / denominator[i])
                 else:
-                    ratios.append(LARGE_NUMBER)
+                    ratios.append(Fraction(-1))
 
             ratios = np.array(ratios)
             # Only consider positive ratios
             positive_ratios = ratios[ratios > 0]
-
+            
             if positive_ratios.size == 0:
-                print('The linear program is unbounded/unfeasible, or simplex just cannot progress further.')
-                return
+                # If no positive ratio, we have to make a degenerate move.
 
-            # Get the index of leaving variable
-            leaving_variable_index = np.argmin(ratios[ratios >= 0])
-            leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
+                if ratios[ratios == 0].size == 0:
+                    print("The linear program is unbounded.")
+                    return
+                
+                # If we have at least a ratio of 0, make any degenerate move
+                # (the first one in this case).
+                leaving_variable_index = np.where(ratios == 0)[0][0]
 
-            # If invalid index, problem is unbounded
-            if ratios[leaving_variable_index] == np.inf:
-                print('The linear program is unbounded.')
-                return
+            else:
+                # If we have a positive ratio, can make an improving move.
+
+                # Get the index of leaving variable
+                leaving_variable_index = np.argmin(positive_ratios)
+                leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
 
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
 
@@ -96,12 +100,17 @@ class SimplexSolver:
 
 
     def find_entering_variable(self, tableau):
+        # Find the index of the smallest negative coefficient.
         if self.pivot_rule == "Dantzig":
             pivot_column = np.argmin(tableau[-1, :])
+        
+        # Find the index of the first negative coefficient.
+        elif self.pivot_rule == "Bland":
+            pivot_column = np.argmax(tableau[-1, :] < 0)
+        
+        if tableau[-1, pivot_column] >= 0:
+            # Signifies end of computations.
+            return -1
 
-            if tableau[-1, pivot_column] >= 0:
-                # Signifies end of computations.
-                return -1
-
-            return pivot_column
+        return pivot_column
     
