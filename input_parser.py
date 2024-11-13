@@ -1,3 +1,5 @@
+from fractions import Fraction
+
 # Class that defines a parser for .lp files, i.e. files that contain optimization programs.
 class LPParser:
     def __init__(self):
@@ -56,18 +58,18 @@ class LPParser:
 
         try:
             coefficient = ''
-            while idx < len(expr) and ('0' <= (expr[idx]) <= '9' or expr[idx] == '-'):
+            while idx < len(expr) and ('0' <= (expr[idx]) <= '9' or expr[idx] in ['-', '.', '/']):
                 coefficient += expr[idx]
                 idx += 1
 
             if idx == 0:
-                coefficient = 1
+                coefficient = Fraction(1)
 
             elif idx == 1 and expr[0] == '-':
-                coefficient = -1
+                coefficient = Fraction(-1)
 
             else:
-                coefficient = int(coefficient)
+                coefficient = Fraction(coefficient)
 
             return coefficient, expr[idx:]
         except:
@@ -85,7 +87,7 @@ class LPParser:
             self.constraints[parts[0]] = {}
 
             terms, bound = parts[1].split('<=')
-            self.constraints[parts[0]]['rhs'] = bound
+            self.constraints[parts[0]]['rhs'] = Fraction(bound)
             terms = self.preprocess_terms(terms)
             terms = [t for t in terms.split('+') if t != '']
 

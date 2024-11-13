@@ -1,5 +1,8 @@
 from input_parser import LPParser
 import numpy as np
+from fractions import Fraction
+import math
+LARGE_NUMBER = Fraction(10**10)
 
 class SimplexSolver:
     def __init__(self, pivot_rule: str):
@@ -12,7 +15,7 @@ class SimplexSolver:
         # We need num_constraints + 1 rows because we have one more row for the objective function
         # We need num_variables + len(num_constraints) + 1 because for each constraint, we would have a slack variable, 
         # as all constraints are of type <= for now, and also one more column for the rhs of the constraints
-        tableau = np.zeros((num_constraints+1, num_variables+num_constraints+1))
+        tableau = np.full((num_constraints + 1, num_variables + num_constraints + 1), Fraction(0), dtype=object)
         list_of_variables = sorted(list(lp_parser.variables))
 
         i = 0
@@ -24,7 +27,7 @@ class SimplexSolver:
                     tableau[i, j] = coefficient
             
             tableau[i, -1] = lp_parser.constraints[constraint_name]['rhs']
-            tableau[i, i + num_variables] = 1
+            tableau[i, i + num_variables] = Fraction(1)
             i += 1
 
         for variable, coefficient in lp_parser.obj_function.items():
@@ -47,8 +50,16 @@ class SimplexSolver:
             
             # Calculate the ratios for the pivot operation
             denominator = tableau[:-1, pivot_column]
-            ratios = np.where(denominator != 0, tableau[:-1, -1] / denominator, np.inf)
 
+            ratios = []
+            # Use for loop, as np.where does not really work on Fractions.
+            for i in range(len(denominator)):
+                if denominator[i] != 0:
+                    ratios.append(tableau[i, -1] / denominator[i])
+                else:
+                    ratios.append(LARGE_NUMBER)
+
+            ratios = np.array(ratios)
             # Only consider positive ratios
             positive_ratios = ratios[ratios > 0]
 
@@ -57,7 +68,7 @@ class SimplexSolver:
                 return
 
             # Get the index of leaving variable
-            leaving_variable_index = np.argmin(ratios[ratios > 0])
+            leaving_variable_index = np.argmin(ratios[ratios >= 0])
             leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
 
             # If invalid index, problem is unbounded
@@ -68,7 +79,7 @@ class SimplexSolver:
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
 
         print(f'The maximum value of the objective function is {tableau[-1, -1]}')
-        print(tableau)
+     
 
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
         # Set the pivot row to have 1 in the pivot column.
@@ -91,6 +102,6 @@ class SimplexSolver:
             if tableau[-1, pivot_column] >= 0:
                 # Signifies end of computations.
                 return -1
-            
+
             return pivot_column
     
