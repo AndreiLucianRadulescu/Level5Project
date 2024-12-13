@@ -8,13 +8,13 @@ class SimplexSolver:
         self.pivot_rule = pivot_rule
 
     def get_tableau_from_lp(self, lp_parser: LPParser):
-        num_constraints = len(lp_parser.constraints)
-        num_variables = len(lp_parser.variables)
+        self.num_constraints = len(lp_parser.constraints)
+        self.num_variables = len(lp_parser.variables)
 
         # We need num_constraints + 1 rows because we have one more row for the objective function
         # We need num_variables + len(num_constraints) + 1 because for each constraint, we would have a slack variable, 
         # as all constraints are of type <= for now, and also one more column for the rhs of the constraints
-        tableau = np.full((num_constraints + 1, num_variables + num_constraints + 1), Fraction(0), dtype=object)
+        tableau = np.full((self.num_constraints + 1, self.num_variables + self.num_constraints + 1), Fraction(0), dtype=object)
         list_of_variables = sorted(list(lp_parser.variables))
 
         i = 0
@@ -26,7 +26,7 @@ class SimplexSolver:
                     tableau[i, j] = coefficient
             
             tableau[i, -1] = lp_parser.constraints[constraint_name]['rhs']
-            tableau[i, i + num_variables] = Fraction(1)
+            tableau[i, i + self.num_variables] = Fraction(1)
             i += 1
 
         for variable, coefficient in lp_parser.obj_function.items():
@@ -35,18 +35,30 @@ class SimplexSolver:
 
                 tableau[-1, j] = -coefficient
 
-        return tableau
+        # Add a slack variable for each constraint.
+        self.list_of_variables = list_of_variables + [f's{i+1}' for i in range(self.num_constraints)]
+        return tableau 
 
     def solve(self, lp_parser: LPParser):
         tableau = self.get_tableau_from_lp(lp_parser)
+        print(tableau)
+        current_basis = self.list_of_variables[self.num_variables:]
+        visited_states = set()
+        visited_states.add(tuple(current_basis))
         
         while True:
+            # if tuple(current_basis) in visited_states:
+            #     print('Cycle detected. Exiting.')
+            #     return
+            # else:
+            #     visited_states.add(tuple(current_basis))
+
             pivot_column = self.find_entering_variable(tableau)
 
             if pivot_column == -1:
                 print('Optimal solution has been found.')
                 break
-            
+
             # Calculate the ratios for the pivot operation
             denominator = tableau[:-1, pivot_column]
 

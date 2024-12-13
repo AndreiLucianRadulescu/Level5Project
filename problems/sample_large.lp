@@ -1,7 +1,7 @@
 \ LP format example
 
 Maximize
- obj: 1x1 + 2x2 + 3x3 + 4x4 + 5x5 + 6x6 + 7x7 + 8x8 + 9x9 + 10x10 + 11x11 + 12x12 + 13x13 + 14x14 + 15x15 + 16x16 + 17x17 + 18x18 + 19x19 + 20x20
+ obj: 1x1 + 1/2x2 + 3x3 + 4x4 + 5x5 + 6x6 + 7x7 + 8x8 + 9x9 + 10x10 + 11x11 + 12x12 + 13x13 + 14x14 + 15x15 + 16x16 + 17x17 + 18x18 + 19x19 + 20x20
 
 Subject To
  c1: 1x1 + 2x2 + 3x3 + 4x4 + 5x5 + 6x6 + 7x7 + 8x8 + 9x9 + 10x10 <= 100
@@ -20,6 +20,9 @@ Subject To
 \ allow negative coefficients
 \ maybe bouns in the future anomize inputs
 \ for now, ranom coeffi solucients (-1, 1), with accuracy
+\ 3-4 igits
+\ zero sum games
+\ num. var vs num. cnstraints in 2 imensions, 3
 \ allow origin in thetion space, otherwise not possible to solve
 \ for next week: implement simplex - Antzig's Rule, try to r
 End
