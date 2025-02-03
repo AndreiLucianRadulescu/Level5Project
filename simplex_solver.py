@@ -41,7 +41,6 @@ class SimplexSolver:
 
     def solve(self, lp_parser: LPParser):
         tableau = self.get_tableau_from_lp(lp_parser)
-        print(tableau)
         current_basis = self.list_of_variables[self.num_variables:]
         visited_states = set()
         visited_states.add(tuple(current_basis))
@@ -56,7 +55,6 @@ class SimplexSolver:
             pivot_column = self.find_entering_variable(tableau)
 
             if pivot_column == -1:
-                print('Optimal solution has been found.')
                 break
 
             # Calculate the ratios for the pivot operation
@@ -78,8 +76,7 @@ class SimplexSolver:
                 # If no positive ratio, we have to make a degenerate move.
 
                 if ratios[ratios == 0].size == 0:
-                    print("The linear program is unbounded.")
-                    return
+                    return {"status": "Unbounded", "value": math.inf}
                 
                 # If we have at least a ratio of 0, make any degenerate move
                 # (the first one in this case).
@@ -93,10 +90,9 @@ class SimplexSolver:
                 leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
 
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
-
-        print(f'The maximum value of the objective function is {tableau[-1, -1]}')
-     
-
+        
+        return {"status": "Optimal", "value": float(tableau[-1, -1])}
+   
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
         # Set the pivot row to have 1 in the pivot column.
         tableau[leaving_variable_index, :] *= (1 / tableau[leaving_variable_index, pivot_column])

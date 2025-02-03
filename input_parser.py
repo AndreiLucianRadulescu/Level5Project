@@ -10,6 +10,7 @@ class LPParser:
         self.obj_function = {}
         
     def parse_file(self, filename):
+        self.__init__()
         with open(filename, 'r') as f:
             lines = f.readlines()
 
