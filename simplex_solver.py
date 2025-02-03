@@ -109,13 +109,25 @@ class SimplexSolver:
 
     def find_entering_variable(self, tableau):
         # Find the index of the smallest negative coefficient.
+        negative_indices = np.where(tableau[-1, :] < 0)[0]
+        
+        if len(negative_indices) == 0:
+            return -1  # No negative coefficients, end of computations.
+        
+        # Smallest negative coefficient
         if self.pivot_rule == "Dantzig":
-            pivot_column = np.argmin(tableau[-1, :])
+            pivot_column = negative_indices[np.argmin(tableau[-1, negative_indices])]
         
-        # Find the index of the first negative coefficient.
+        # First negative coefficient (smallest index)
         elif self.pivot_rule == "Bland":
-            pivot_column = np.argmax(tableau[-1, :] < 0)
+            pivot_column = negative_indices[0]
         
+        # Random negative coefficient
+        elif self.pivot_rule == "Random":
+            pivot_column = np.random.choice(negative_indices)
+
+        return pivot_column
+
         if tableau[-1, pivot_column] >= 0:
             # Signifies end of computations.
             return -1

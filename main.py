@@ -7,6 +7,6 @@ lp_parser = LPParser()
 filename = sys.argv[1]
 lp_parser.parse_file(f"./problems/problems_correctness/10x10/{filename}")
 
-solver = SimplexSolver(pivot_rule="Dantzig")
+solver = SimplexSolver(pivot_rule="Random")
 
 print(solver.solve(lp_parser))
