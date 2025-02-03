@@ -2,10 +2,12 @@ from input_parser import LPParser
 import numpy as np
 from fractions import Fraction
 import math
+import re
 
 class SimplexSolver:
     def __init__(self, pivot_rule: str):
         self.pivot_rule = pivot_rule
+        self.solution = None
 
     def get_tableau_from_lp(self, lp_parser: LPParser):
         self.num_constraints = len(lp_parser.constraints)
@@ -15,13 +17,13 @@ class SimplexSolver:
         # We need num_variables + len(num_constraints) + 1 because for each constraint, we would have a slack variable, 
         # as all constraints are of type <= for now, and also one more column for the rhs of the constraints
         tableau = np.full((self.num_constraints + 1, self.num_variables + self.num_constraints + 1), Fraction(0), dtype=object)
-        list_of_variables = sorted(list(lp_parser.variables))
+        self.original_variables = sorted(list(lp_parser.variables), key=lambda x: self.sort_variables_key_function(x))
 
         i = 0
         for constraint_name, var_dict in lp_parser.constraints.items():
             for variable, coefficient in var_dict.items():
                 if variable in lp_parser.variables:
-                    j = list_of_variables.index(variable)
+                    j = self.original_variables.index(variable)
 
                     tableau[i, j] = coefficient
             
@@ -31,26 +33,25 @@ class SimplexSolver:
 
         for variable, coefficient in lp_parser.obj_function.items():
             if variable in lp_parser.variables:
-                j = list_of_variables.index(variable)
+                j = self.original_variables.index(variable)
 
                 tableau[-1, j] = -coefficient
 
         # Add a slack variable for each constraint.
-        self.list_of_variables = list_of_variables + [f's{i+1}' for i in range(self.num_constraints)]
+        self.all_variables = self.original_variables + [f'_s{i+1}' for i in range(self.num_constraints)]
         return tableau 
 
     def solve(self, lp_parser: LPParser):
         tableau = self.get_tableau_from_lp(lp_parser)
-        current_basis = self.list_of_variables[self.num_variables:]
+        current_basis = self.all_variables[self.num_variables:]
         visited_states = set()
-        visited_states.add(tuple(current_basis))
-        
+
         while True:
-            # if tuple(current_basis) in visited_states:
-            #     print('Cycle detected. Exiting.')
-            #     return
-            # else:
-            #     visited_states.add(tuple(current_basis))
+            if tuple(current_basis) in visited_states:
+                print('Cycle detected. Exiting.')
+                return
+            else:
+                visited_states.add(tuple(current_basis))
 
             pivot_column = self.find_entering_variable(tableau)
 
@@ -76,6 +77,7 @@ class SimplexSolver:
                 # If no positive ratio, we have to make a degenerate move.
 
                 if ratios[ratios == 0].size == 0:
+                    self.solution = "Unbounded"
                     return {"status": "Unbounded", "value": math.inf}
                 
                 # If we have at least a ratio of 0, make any degenerate move
@@ -90,7 +92,12 @@ class SimplexSolver:
                 leaving_variable_index = np.where(ratios == positive_ratios[leaving_variable_index])[0][0]
 
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
-        
+
+            # Update state
+            entering_variable = self.all_variables[pivot_column]
+            current_basis[leaving_variable_index] = entering_variable
+
+        self.solution = {current_basis[i]: float(tableau[i, -1]) for i in range(len(current_basis)) if current_basis[i] in self.original_variables}
         return {"status": "Optimal", "value": float(tableau[-1, -1])}
    
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
@@ -127,10 +134,23 @@ class SimplexSolver:
             pivot_column = np.random.choice(negative_indices)
 
         return pivot_column
-
-        if tableau[-1, pivot_column] >= 0:
-            # Signifies end of computations.
-            return -1
-
-        return pivot_column
     
+    def get_solution(self):
+        if self.solution is None:
+            print('No LP has been solved yet, thus returning -1.')
+            return -1
+        
+        return self.solution
+    
+    def sort_variables_key_function(self, var):
+        """
+        This function sorts the variables as such:
+            - x1, x2, ..., x10 -> x1, x2, ..., x10
+            - a, c, b, d -> a, b, c, d
+        Need this function to handle both variables without digits in their name, but also those with digits.
+        """
+        match = re.match(r"([a-zA-Z]+)(\d*)", var)
+        if match:
+            prefix, num = match.groups()
+            return (prefix, int(num) if num else 0)  # Convert number to int for proper sorting
+        return (var, 0)
