@@ -46,6 +46,7 @@ class SimplexSolver:
         current_basis = self.all_variables[self.num_variables:]
         visited_states = set()
 
+        num_pivot_steps = 0
         while True:
             if tuple(current_basis) in visited_states:
                 print('Cycle detected. Exiting.')
@@ -78,7 +79,7 @@ class SimplexSolver:
 
                 if ratios[ratios == 0].size == 0:
                     self.solution = "Unbounded"
-                    return {"status": "Unbounded", "value": math.inf}
+                    return {"status": "Unbounded", "value": math.inf, "num_pivot_steps": num_pivot_steps}
                 
                 # If we have at least a ratio of 0, make any degenerate move
                 # (the first one in this case).
@@ -94,11 +95,12 @@ class SimplexSolver:
             self.perform_pivot_operation(tableau, pivot_column, leaving_variable_index)
 
             # Update state
+            num_pivot_steps += 1
             entering_variable = self.all_variables[pivot_column]
             current_basis[leaving_variable_index] = entering_variable
 
         self.solution = {current_basis[i]: float(tableau[i, -1]) for i in range(len(current_basis)) if current_basis[i] in self.original_variables}
-        return {"status": "Optimal", "value": float(tableau[-1, -1])}
+        return {"status": "Optimal", "value": float(tableau[-1, -1]), "num_pivot_steps": num_pivot_steps}
    
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
         # Set the pivot row to have 1 in the pivot column.
