@@ -6,7 +6,7 @@ class LPParser:
         self.num_variables = 0
         self.num_constraints = 0
         self.variables = set()
-        self.constraints = {}
+        self.constraints = []
         self.obj_function = {}
         
     def parse_file(self, filename):
@@ -85,10 +85,10 @@ class LPParser:
         for line_idx in range(starting_idx, len(lines) - 1):
             line = lines[line_idx].replace(' ', '')
             parts = line.split(':')
-            self.constraints[parts[0]] = {}
+            constraint_dict = {}
 
             terms, bound = parts[1].split('<=')
-            self.constraints[parts[0]]['rhs'] = Fraction(bound)
+            constraint_dict['rhs'] = Fraction(bound)
             terms = self.preprocess_terms(terms)
             terms = [t for t in terms.split('+') if t != '']
 
@@ -100,8 +100,9 @@ class LPParser:
                 if variable not in self.variables:
                     self.num_variables += 1
                     self.variables.add(variable)
-                self.constraints[parts[0]][variable] = coefficient
+                constraint_dict[variable] = coefficient
             
+            self.constraints.append(constraint_dict)
             self.num_constraints += 1
         
         return len(lines) - 1
