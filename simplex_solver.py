@@ -3,6 +3,7 @@ import numpy as np
 from fractions import Fraction
 import math
 import re
+import time
 
 class SimplexSolver:
     def __init__(self, pivot_rule: str):
@@ -49,9 +50,7 @@ class SimplexSolver:
         #   - slack variables, denoted by _sNumber,
         #   - artificial variables (if we need two phase simplex), denoted by _zzzNumber.
         self.all_variables = self.original_variables + [f'_s{i+1}' for i in range(self.num_constraints)] + [f'_zzz{i+1}' for i in range(len(self.negative_rhs_idxs))]
-        # Now we need to set the objective function (last row in tableau)
-        # If we have artificial variables, we need to set the objective function
-        # as the preliminary one, asking to maximize -1 * the sum of all artificial variables.
+        
         art_var_added = 0
         if len(self.negative_rhs_idxs) > 0:
             for neg_idx, i in self.negative_rhs_idxs.items():
@@ -68,8 +67,13 @@ class SimplexSolver:
                     num_a_var_alrdy_in_basis += 1
                 else:
                     current_basis[i] = self.all_variables[self.num_variables + i]
-
+            
+            start_time = time.time()
             temp_solution = self.solve_tableau(tableau, current_basis)
+            end_time = time.time()
+
+            temp_solution['has_two_phases'] = True
+            temp_solution['first_phase_time'] = (end_time - start_time) * 1000
             
             # We are now done with Phase 1.
             if temp_solution["status"] != "Optimal" or temp_solution["value"] != 0:
@@ -99,6 +103,9 @@ class SimplexSolver:
                 for var in variables_to_delete:
                     self.all_variables.remove(var)
             
+            # Now we need to set the objective function (last row in tableau)
+            # If we have artificial variables, we need to set the objective function
+            # as the preliminary one, asking to maximize -1 * the sum of all artificial variables.
             for variable, coefficient in lp_parser.obj_function.items():
                 tableau[-1, self.all_variables.index(variable)] = - coefficient
 
@@ -111,15 +118,24 @@ class SimplexSolver:
                 
                 tableau[-1] -= tableau[idx] * tableau[-1, basic_variable_idx]
             
+            start_time = time.time()
+            final_solution = self.solve_tableau(tableau, current_basis)
+            end_time = time.time()
+            final_solution["second_phase_time"] = (end_time - start_time) * 1000
 
-            
             return self.solve_tableau(tableau, current_basis)
         else:
             for variable, coefficient in lp_parser.obj_function.items():
                 tableau[-1, self.all_variables.index(variable)] = - coefficient
             current_basis = self.all_variables[self.num_variables:]
 
-            return self.solve_tableau(tableau, current_basis) 
+            start_time = time.time()
+            final_solution = self.solve_tableau(tableau, current_basis)
+            end_time = time.time()
+            final_solution["first_phase_time"] = (end_time - start_time) * 1000
+            final_solution["has_two_phases"] = False
+
+            return final_solution
    
     def perform_pivot_operation(self, tableau, pivot_column: int, leaving_variable_index: int):
         # Set the pivot row to have 1 in the pivot column.
