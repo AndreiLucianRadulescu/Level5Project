@@ -74,11 +74,14 @@ class SimplexSolver:
 
             temp_solution['has_two_phases'] = True
             temp_solution['first_phase_time'] = (end_time - start_time) * 1000
+            temp_solution["num_pivot_steps_first_phase"] = temp_solution["num_pivot_steps"]
             
             # We are now done with Phase 1.
             if temp_solution["status"] != "Optimal" or temp_solution["value"] != 0:
                 self.solution = "Infeasible"
-                return {"status": "Infeasible", "value": - np.inf, "num_pivot_steps": temp_solution['num_pivot_steps']}
+                temp_solution["status"] = "Infeasible"
+                temp_solution["value"] = - np.inf
+                return temp_solution
             
             # If we get here, then need to proceed to Phase 2.
             current_basis = temp_solution["current_basis"]
@@ -122,8 +125,9 @@ class SimplexSolver:
             final_solution = self.solve_tableau(tableau, current_basis)
             end_time = time.time()
             final_solution["second_phase_time"] = (end_time - start_time) * 1000
+            final_solution["num_pivot_steps_second_phase"] = final_solution["num_pivot_steps"]
 
-            return self.solve_tableau(tableau, current_basis)
+            return final_solution
         else:
             for variable, coefficient in lp_parser.obj_function.items():
                 tableau[-1, self.all_variables.index(variable)] = - coefficient
@@ -168,6 +172,29 @@ class SimplexSolver:
         # Random negative coefficient
         elif self.pivot_rule == "Random":
             pivot_column = np.random.choice(negative_indices)
+        
+        elif self.pivot_rule == "SteepestEdge":
+            # For steepest edge, we look for the variable that gives the 
+            # steepest descent when normalized by the Euclidean norm
+            max_steepness = Fraction(0)
+            pivot_column = -1
+            
+            for col in negative_indices:
+                # Get the column vector including the objective row
+                column_vector = tableau[:, col]
+                
+                # Calculate the Euclidean norm of the column
+                # We use sum of squares since we only need comparisons
+                norm_squared = sum(x**2 for x in column_vector)
+                norm = math.sqrt(norm_squared)
+                
+                # Calculate the steepness (negative of the normalized coefficient)
+                steepness = abs(tableau[-1, col]) / Fraction(norm)
+                
+                # Update if we found a steeper edge
+                if steepness > max_steepness:
+                    max_steepness = steepness
+                    pivot_column = col
 
         return pivot_column
     
