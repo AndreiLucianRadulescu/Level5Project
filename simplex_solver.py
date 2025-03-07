@@ -176,22 +176,18 @@ class SimplexSolver:
         elif self.pivot_rule == "SteepestEdge":
             # For steepest edge, we look for the variable that gives the 
             # steepest descent when normalized by the Euclidean norm
-            max_steepness = Fraction(0)
+            max_steepness = 0.0
             pivot_column = -1
             
             for col in negative_indices:
-                # Get the column vector including the objective row
                 column_vector = tableau[:, col]
                 
-                # Calculate the Euclidean norm of the column
-                # We use sum of squares since we only need comparisons
-                norm_squared = sum(x**2 for x in column_vector)
-                norm = math.sqrt(norm_squared)
+                column_float = np.array([float(x) for x in column_vector])
                 
-                # Calculate the steepness (negative of the normalized coefficient)
-                steepness = abs(tableau[-1, col]) / Fraction(norm)
+                norm = np.linalg.norm(column_float)
                 
-                # Update if we found a steeper edge
+                steepness = abs(float(tableau[-1, col])) / norm
+                
                 if steepness > max_steepness:
                     max_steepness = steepness
                     pivot_column = col
