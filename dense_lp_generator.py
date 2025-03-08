@@ -2,8 +2,9 @@ import random
 import numpy as np
 
 class DenseLPGenerator:
-    def __init__(self, precision=2):
+    def __init__(self, precision=2, allow_negative_rhs = False):
         self.precision = precision
+        self.allow_negative_rhs = allow_negative_rhs
     
     def generate_constraint(self, num_variables, scale_factor=5):
         """Generate a constraint that's guaranteed to be satisfied by the origin."""
@@ -13,7 +14,10 @@ class DenseLPGenerator:
         # Scale coefficients to make them more meaningful
         coefficients *= scale_factor
         
-        rhs = random.uniform(0, 10)  # Only positive RHS values
+        if self.allow_negative_rhs:
+            rhs = random.uniform(-10, 10)
+        else:
+            rhs = random.uniform(0, 10)  # Only positive RHS values
         
         return coefficients, rhs
     
