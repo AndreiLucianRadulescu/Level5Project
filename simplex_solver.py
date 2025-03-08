@@ -53,6 +53,7 @@ class SimplexSolver:
         
         art_var_added = 0
         if len(self.negative_rhs_idxs) > 0:
+            final_solution = {}
             for neg_idx, i in self.negative_rhs_idxs.items():
                 tableau[-1, self.num_variables + self.num_constraints + art_var_added] = 1
                 art_var_added += 1
@@ -72,16 +73,16 @@ class SimplexSolver:
             temp_solution = self.solve_tableau(tableau, current_basis)
             end_time = time.time()
 
-            temp_solution['has_two_phases'] = True
-            temp_solution['first_phase_time'] = (end_time - start_time) * 1000
-            temp_solution["num_pivot_steps_first_phase"] = temp_solution["num_pivot_steps"]
+            final_solution["has_two_phases"] = True
+            final_solution['first_phase_time'] = (end_time - start_time) * 1000
+            final_solution["num_pivot_steps_first_phase"] = temp_solution["num_pivot_steps"]
             
             # We are now done with Phase 1.
             if temp_solution["status"] != "Optimal" or temp_solution["value"] != 0:
                 self.solution = "Infeasible"
-                temp_solution["status"] = "Infeasible"
-                temp_solution["value"] = - np.inf
-                return temp_solution
+                final_solution["status"] = "Infeasible"
+                final_solution["value"] = - np.inf
+                return final_solution
             
             # If we get here, then need to proceed to Phase 2.
             current_basis = temp_solution["current_basis"]
@@ -122,10 +123,13 @@ class SimplexSolver:
                 tableau[-1] -= tableau[idx] * tableau[-1, basic_variable_idx]
             
             start_time = time.time()
-            final_solution = self.solve_tableau(tableau, current_basis)
+            temp_solution = self.solve_tableau(tableau, current_basis)
             end_time = time.time()
+
             final_solution["second_phase_time"] = (end_time - start_time) * 1000
-            final_solution["num_pivot_steps_second_phase"] = final_solution["num_pivot_steps"]
+            final_solution["num_pivot_steps_second_phase"] = temp_solution["num_pivot_steps"]
+            final_solution["status"] = temp_solution["status"]
+            final_solution["value"] = temp_solution["value"]
 
             return final_solution
         else:
