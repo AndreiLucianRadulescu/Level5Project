@@ -1,0 +1,5002 @@
+{
+    "1.lp": {
+        "status": "Optimal",
+        "value": 10.846380963498957,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "_s3",
+            "x10",
+            "_s5",
+            "x5",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s1"
+        ],
+        "first_phase_time": 6.4258575439453125,
+        "has_two_phases": false,
+        "total_time": 6.4258575439453125
+    },
+    "2.lp": {
+        "status": "Optimal",
+        "value": 43.96583069444584,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s5",
+            "_s2",
+            "x1",
+            "x6",
+            "x3",
+            "x5",
+            "_s3",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 8.547067642211914,
+        "has_two_phases": false,
+        "total_time": 8.547067642211914
+    },
+    "3.lp": {
+        "status": "Optimal",
+        "value": 39.43796704693175,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x4",
+            "x8",
+            "x2",
+            "x1",
+            "_s5",
+            "x10",
+            "_s4",
+            "_s8",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 5.042076110839844,
+        "has_two_phases": false,
+        "total_time": 5.042076110839844
+    },
+    "4.lp": {
+        "status": "Optimal",
+        "value": 113.1988738908607,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x10",
+            "_s2",
+            "x9",
+            "x8",
+            "_s5",
+            "x5",
+            "x3",
+            "x7",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 5.412101745605469,
+        "has_two_phases": false,
+        "total_time": 5.412101745605469
+    },
+    "5.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x5",
+            "x7",
+            "x2",
+            "x10",
+            "_s5",
+            "_s6",
+            "x4",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.9948482513427734,
+        "has_two_phases": false,
+        "total_time": 1.9948482513427734
+    },
+    "6.lp": {
+        "status": "Optimal",
+        "value": 48.630122456786744,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x10",
+            "x2",
+            "x3",
+            "_s5",
+            "x9",
+            "x7",
+            "_s8",
+            "_s9",
+            "x6"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "7.lp": {
+        "status": "Optimal",
+        "value": 1.9963718241562889,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "x7",
+            "_s4",
+            "_s5",
+            "_s1",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "8.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x6",
+            "x3",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "9.lp": {
+        "status": "Optimal",
+        "value": 13.361536358590351,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x6",
+            "_s3",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "10.lp": {
+        "status": "Optimal",
+        "value": 257.1521705448784,
+        "num_pivot_steps": 16,
+        "current_basis": [
+            "x4",
+            "x6",
+            "x10",
+            "x5",
+            "x3",
+            "_s8",
+            "x1",
+            "_s1",
+            "_s5",
+            "_s10"
+        ],
+        "first_phase_time": 6.082057952880859,
+        "has_two_phases": false,
+        "total_time": 6.082057952880859
+    },
+    "11.lp": {
+        "status": "Optimal",
+        "value": 6.9361436803845775,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "x5",
+            "_s2",
+            "x4",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s5",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "12.lp": {
+        "status": "Optimal",
+        "value": 24.176016152443957,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s8",
+            "_s3",
+            "_s4",
+            "x2",
+            "x8",
+            "_s7",
+            "_s9",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "13.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x6",
+            "_s9",
+            "x7"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "14.lp": {
+        "status": "Optimal",
+        "value": 28.966660390707798,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "_s6",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "x7",
+            "x3",
+            "x1"
+        ],
+        "first_phase_time": 6.1016082763671875,
+        "has_two_phases": false,
+        "total_time": 6.1016082763671875
+    },
+    "15.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x5",
+            "x7",
+            "_s3",
+            "_s4",
+            "x6",
+            "_s6",
+            "_s7",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "16.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x6",
+            "x2",
+            "x10",
+            "_s5",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 3.915071487426758,
+        "has_two_phases": false,
+        "total_time": 3.915071487426758
+    },
+    "17.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x5",
+            "x4",
+            "_s3",
+            "_s9",
+            "_s5",
+            "x10",
+            "x8",
+            "x2",
+            "_s2",
+            "_s10"
+        ],
+        "first_phase_time": 5.33747673034668,
+        "has_two_phases": false,
+        "total_time": 5.33747673034668
+    },
+    "18.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x1",
+            "x7",
+            "x3",
+            "x2",
+            "_s5",
+            "x10",
+            "_s7",
+            "x4",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 2.843141555786133,
+        "has_two_phases": false,
+        "total_time": 2.843141555786133
+    },
+    "19.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 0,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "20.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "x7",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x5",
+            "_s8",
+            "x3",
+            "x6"
+        ],
+        "first_phase_time": 3.1998157501220703,
+        "has_two_phases": false,
+        "total_time": 3.1998157501220703
+    },
+    "21.lp": {
+        "status": "Optimal",
+        "value": 46.844618310857825,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "x10",
+            "_s3",
+            "x8",
+            "x3",
+            "x7",
+            "x2",
+            "x9",
+            "_s10"
+        ],
+        "first_phase_time": 6.019353866577148,
+        "has_two_phases": false,
+        "total_time": 6.019353866577148
+    },
+    "22.lp": {
+        "status": "Optimal",
+        "value": 16.325784367229325,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x3",
+            "x7",
+            "_s3",
+            "_s4",
+            "x5",
+            "_s6",
+            "_s7",
+            "_s5",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 3.3860206604003906,
+        "has_two_phases": false,
+        "total_time": 3.3860206604003906
+    },
+    "23.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x1",
+            "x9",
+            "x8",
+            "_s7",
+            "_s8",
+            "x3",
+            "_s10"
+        ],
+        "first_phase_time": 5.706071853637695,
+        "has_two_phases": false,
+        "total_time": 5.706071853637695
+    },
+    "24.lp": {
+        "status": "Optimal",
+        "value": 32.00664033080787,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x10",
+            "_s7",
+            "x4",
+            "x5",
+            "x3"
+        ],
+        "first_phase_time": 4.200220108032227,
+        "has_two_phases": false,
+        "total_time": 4.200220108032227
+    },
+    "25.lp": {
+        "status": "Optimal",
+        "value": 12.673035975959912,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s4",
+            "_s2",
+            "x8",
+            "x1",
+            "x3",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x9",
+            "_s10"
+        ],
+        "first_phase_time": 3.385782241821289,
+        "has_two_phases": false,
+        "total_time": 3.385782241821289
+    },
+    "26.lp": {
+        "status": "Optimal",
+        "value": 28.305106687208546,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x5",
+            "x2",
+            "_s3",
+            "x3",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "27.lp": {
+        "status": "Optimal",
+        "value": 8.084366228836277,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x4",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "28.lp": {
+        "status": "Optimal",
+        "value": 118.13657187985014,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "_s1",
+            "_s6",
+            "x5",
+            "x9",
+            "x2",
+            "_s4",
+            "x4",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.455898284912109,
+        "has_two_phases": false,
+        "total_time": 6.455898284912109
+    },
+    "29.lp": {
+        "status": "Optimal",
+        "value": 135.4060601868165,
+        "num_pivot_steps": 19,
+        "current_basis": [
+            "x3",
+            "x1",
+            "_s6",
+            "x10",
+            "x7",
+            "_s4",
+            "x8",
+            "x9",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.131172180175781,
+        "has_two_phases": false,
+        "total_time": 6.131172180175781
+    },
+    "30.lp": {
+        "status": "Optimal",
+        "value": 6.372265551264386,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x5",
+            "x2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s9",
+            "x7",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "31.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x9",
+            "x8",
+            "_s3",
+            "x5",
+            "x1",
+            "x4",
+            "x6",
+            "_s8",
+            "x3",
+            "_s10"
+        ],
+        "first_phase_time": 4.051446914672852,
+        "has_two_phases": false,
+        "total_time": 4.051446914672852
+    },
+    "32.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x5",
+            "x3",
+            "x4",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x2",
+            "x6",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.9653568267822266,
+        "has_two_phases": false,
+        "total_time": 0.9653568267822266
+    },
+    "33.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "x8",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x10",
+            "x6",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 2.411365509033203,
+        "has_two_phases": false,
+        "total_time": 2.411365509033203
+    },
+    "34.lp": {
+        "status": "Optimal",
+        "value": 34.09187227320336,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x2",
+            "_s1",
+            "x10",
+            "_s4",
+            "_s5",
+            "x9",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "35.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x6",
+            "_s3",
+            "x5",
+            "x8",
+            "_s6",
+            "x3",
+            "_s8",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 6.067514419555664,
+        "has_two_phases": false,
+        "total_time": 6.067514419555664
+    },
+    "36.lp": {
+        "status": "Optimal",
+        "value": 9.497915259817425,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "x9",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x4",
+            "_s9",
+            "x5"
+        ],
+        "first_phase_time": 3.2863616943359375,
+        "has_two_phases": false,
+        "total_time": 3.2863616943359375
+    },
+    "37.lp": {
+        "status": "Optimal",
+        "value": 7.291271995517983,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "_s3",
+            "x10",
+            "_s5",
+            "_s6",
+            "_s4",
+            "_s8",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 3.781557083129883,
+        "has_two_phases": false,
+        "total_time": 3.781557083129883
+    },
+    "38.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x2",
+            "x1",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x6",
+            "x8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 2.6464462280273438,
+        "has_two_phases": false,
+        "total_time": 2.6464462280273438
+    },
+    "39.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x6",
+            "x2",
+            "x8",
+            "_s4",
+            "x5",
+            "_s2",
+            "x1",
+            "x7",
+            "x10",
+            "_s10"
+        ],
+        "first_phase_time": 1.5583038330078125,
+        "has_two_phases": false,
+        "total_time": 1.5583038330078125
+    },
+    "40.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "x6",
+            "x4",
+            "x1",
+            "_s6",
+            "x8",
+            "x2",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "41.lp": {
+        "status": "Optimal",
+        "value": 17.661424904569856,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "x7",
+            "_s4",
+            "_s2",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x3",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "42.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "x8",
+            "x2",
+            "x6",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s4"
+        ],
+        "first_phase_time": 6.09278678894043,
+        "has_two_phases": false,
+        "total_time": 6.09278678894043
+    },
+    "43.lp": {
+        "status": "Optimal",
+        "value": 9.031600511494203,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x3",
+            "x6",
+            "_s5",
+            "_s6",
+            "x8",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.1331310272216797,
+        "has_two_phases": false,
+        "total_time": 2.1331310272216797
+    },
+    "44.lp": {
+        "status": "Optimal",
+        "value": 36.269142510785855,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x9",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x2",
+            "_s6",
+            "_s7",
+            "x8",
+            "x4",
+            "x5"
+        ],
+        "first_phase_time": 2.656698226928711,
+        "has_two_phases": false,
+        "total_time": 2.656698226928711
+    },
+    "45.lp": {
+        "status": "Optimal",
+        "value": 104.82306584480054,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s6",
+            "_s2",
+            "_s3",
+            "x2",
+            "_s5",
+            "_s4",
+            "x10",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 3.0050277709960938,
+        "has_two_phases": false,
+        "total_time": 4.566431045532227
+    },
+    "46.lp": {
+        "status": "Optimal",
+        "value": 28.07462287309192,
+        "num_pivot_steps": 16,
+        "current_basis": [
+            "x3",
+            "x9",
+            "_s3",
+            "_s8",
+            "_s10",
+            "_s6",
+            "_s1",
+            "x10",
+            "_s9",
+            "_s4"
+        ],
+        "first_phase_time": 4.477739334106445,
+        "has_two_phases": false,
+        "total_time": 4.477739334106445
+    },
+    "47.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x10",
+            "_s2",
+            "x9",
+            "_s4",
+            "x8",
+            "x4",
+            "x1",
+            "_s7",
+            "x5",
+            "x6"
+        ],
+        "first_phase_time": 5.981683731079102,
+        "has_two_phases": false,
+        "total_time": 5.981683731079102
+    },
+    "48.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "_s1",
+            "x7",
+            "x9",
+            "x5",
+            "x6",
+            "_s6",
+            "_s3",
+            "_s8",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 3.7102699279785156,
+        "has_two_phases": false,
+        "total_time": 3.7102699279785156
+    },
+    "49.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 1,
+        "current_basis": [
+            "_s1",
+            "x7",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "50.lp": {
+        "status": "Optimal",
+        "value": 0.3278058678540192,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.6210079193115234,
+        "has_two_phases": false,
+        "total_time": 1.6210079193115234
+    },
+    "51.lp": {
+        "status": "Optimal",
+        "value": 24.842380321895124,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "x8",
+            "x6",
+            "_s6",
+            "_s5",
+            "_s8",
+            "x4",
+            "x5"
+        ],
+        "first_phase_time": 3.8564205169677734,
+        "has_two_phases": false,
+        "total_time": 3.8564205169677734
+    },
+    "52.lp": {
+        "status": "Optimal",
+        "value": 15.07107634940072,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x9",
+            "_s2",
+            "x6",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x4",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "53.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s4",
+            "_s2",
+            "_s3",
+            "x4",
+            "x8",
+            "x5",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.32973289489746094
+    },
+    "54.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 16,
+        "current_basis": [
+            "_s1",
+            "x10",
+            "_s3",
+            "_s4",
+            "x5",
+            "x7",
+            "_s7",
+            "x1",
+            "x4",
+            "x9"
+        ],
+        "first_phase_time": 6.0062408447265625,
+        "has_two_phases": false,
+        "total_time": 6.0062408447265625
+    },
+    "55.lp": {
+        "status": "Optimal",
+        "value": 21.845019144352236,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x10",
+            "_s2",
+            "x1",
+            "_s4",
+            "_s5",
+            "x3",
+            "x6",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 3.371715545654297,
+        "has_two_phases": false,
+        "total_time": 3.371715545654297
+    },
+    "56.lp": {
+        "status": "Optimal",
+        "value": 132.8890939632469,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x5",
+            "x6",
+            "x10",
+            "x9",
+            "_s8",
+            "x2",
+            "_s7",
+            "x8",
+            "x3",
+            "_s10"
+        ],
+        "first_phase_time": 3.878355026245117,
+        "has_two_phases": false,
+        "total_time": 3.878355026245117
+    },
+    "57.lp": {
+        "status": "Optimal",
+        "value": 8.562884229423874,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "x7",
+            "_s4",
+            "_s5",
+            "_s3",
+            "_s7",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "58.lp": {
+        "status": "Optimal",
+        "value": 43.34993523963324,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x5",
+            "x10",
+            "x3",
+            "_s4",
+            "_s5",
+            "x8",
+            "_s7",
+            "x4",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 6.443023681640625,
+        "has_two_phases": false,
+        "total_time": 6.443023681640625
+    },
+    "59.lp": {
+        "status": "Optimal",
+        "value": 38.54649132020145,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x3",
+            "x4",
+            "_s3",
+            "_s4",
+            "x1",
+            "_s5",
+            "x9",
+            "x6",
+            "x8",
+            "_s8"
+        ],
+        "first_phase_time": 5.654335021972656,
+        "has_two_phases": false,
+        "total_time": 5.654335021972656
+    },
+    "60.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x8",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x3",
+            "x6",
+            "x2",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.000093460083008,
+        "has_two_phases": false,
+        "total_time": 2.000093460083008
+    },
+    "61.lp": {
+        "status": "Optimal",
+        "value": 6.989801946094943,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x7",
+            "_s6",
+            "x8",
+            "x1",
+            "_s7",
+            "_s8",
+            "_s5",
+            "_s9"
+        ],
+        "first_phase_time": 6.485462188720703,
+        "has_two_phases": false,
+        "total_time": 6.485462188720703
+    },
+    "62.lp": {
+        "status": "Optimal",
+        "value": 21.394632913132497,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x10",
+            "_s6",
+            "_s7",
+            "x2",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "63.lp": {
+        "status": "Optimal",
+        "value": 21.345107214699734,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s2",
+            "x4",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x9",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "64.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "_s1",
+            "x3",
+            "x4",
+            "_s4",
+            "_s5",
+            "x10",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 4.201650619506836,
+        "has_two_phases": false,
+        "total_time": 4.201650619506836
+    },
+    "65.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x9",
+            "x2",
+            "x6",
+            "x4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x1",
+            "x8",
+            "x3"
+        ],
+        "first_phase_time": 3.4444332122802734,
+        "has_two_phases": false,
+        "total_time": 3.4444332122802734
+    },
+    "66.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x6",
+            "x3",
+            "_s5",
+            "_s6",
+            "x5",
+            "x1",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "67.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x4",
+            "_s8",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.084680557250977,
+        "has_two_phases": false,
+        "total_time": 6.084680557250977
+    },
+    "68.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x3",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.7039051055908203,
+        "has_two_phases": false,
+        "total_time": 2.7039051055908203
+    },
+    "69.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "x8",
+            "_s2",
+            "x4",
+            "x9",
+            "x6",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x5",
+            "x1"
+        ],
+        "first_phase_time": 3.706693649291992,
+        "has_two_phases": false,
+        "total_time": 3.706693649291992
+    },
+    "70.lp": {
+        "status": "Optimal",
+        "value": 134.9723817740998,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x1",
+            "x10",
+            "_s3",
+            "x2",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x5",
+            "x8"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "71.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x3",
+            "x2",
+            "_s4",
+            "x4",
+            "_s6",
+            "x1",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "72.lp": {
+        "status": "Optimal",
+        "value": 978.1081196014433,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "_s3",
+            "x10",
+            "_s2",
+            "x6",
+            "_s7",
+            "x3",
+            "x5",
+            "_s6"
+        ],
+        "first_phase_time": 6.03938102722168,
+        "has_two_phases": false,
+        "total_time": 6.03938102722168
+    },
+    "73.lp": {
+        "status": "Optimal",
+        "value": 5.433282657112876,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x8",
+            "_s4",
+            "_s5",
+            "x7",
+            "x1",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.5075206756591797,
+        "has_two_phases": false,
+        "total_time": 1.5075206756591797
+    },
+    "74.lp": {
+        "status": "Optimal",
+        "value": 59.06074866602029,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "x1",
+            "_s9",
+            "_s3",
+            "x2",
+            "x4",
+            "x8",
+            "x10",
+            "x7",
+            "_s8",
+            "_s1"
+        ],
+        "first_phase_time": 1.8489360809326172,
+        "has_two_phases": false,
+        "total_time": 1.8489360809326172
+    },
+    "75.lp": {
+        "status": "Optimal",
+        "value": 51.695477819686566,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s5",
+            "x2",
+            "x10",
+            "_s6",
+            "_s1",
+            "x1",
+            "x8",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.052732467651367,
+        "has_two_phases": false,
+        "total_time": 6.052732467651367
+    },
+    "76.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x7",
+            "x1",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 1.9271373748779297,
+        "has_two_phases": false,
+        "total_time": 1.9271373748779297
+    },
+    "77.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x4",
+            "_s4",
+            "_s5",
+            "x1",
+            "x3",
+            "x9",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.519369125366211,
+        "has_two_phases": false,
+        "total_time": 2.519369125366211
+    },
+    "78.lp": {
+        "status": "Optimal",
+        "value": 86.18348193944088,
+        "num_pivot_steps": 19,
+        "current_basis": [
+            "x9",
+            "x8",
+            "x10",
+            "_s4",
+            "_s5",
+            "_s7",
+            "x6",
+            "_s6",
+            "x2",
+            "x5"
+        ],
+        "first_phase_time": 8.470535278320312,
+        "has_two_phases": false,
+        "total_time": 8.470535278320312
+    },
+    "79.lp": {
+        "status": "Optimal",
+        "value": 20.638344587487627,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x1",
+            "x3",
+            "_s9",
+            "x6",
+            "_s5",
+            "_s2",
+            "x9",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 2.3195743560791016,
+        "has_two_phases": false,
+        "total_time": 2.3195743560791016
+    },
+    "80.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x1",
+            "x5",
+            "x6",
+            "_s4",
+            "_s5",
+            "x2",
+            "_s7",
+            "_s1",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.111860275268555,
+        "has_two_phases": false,
+        "total_time": 6.111860275268555
+    },
+    "81.lp": {
+        "status": "Optimal",
+        "value": 23.39533375191191,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x7",
+            "x2",
+            "_s3",
+            "x5",
+            "x6",
+            "x3",
+            "_s7",
+            "x1",
+            "_s9",
+            "_s1"
+        ],
+        "first_phase_time": 2.003908157348633,
+        "has_two_phases": false,
+        "total_time": 2.003908157348633
+    },
+    "82.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x1",
+            "x6",
+            "x8",
+            "_s4",
+            "x7",
+            "x2",
+            "x4",
+            "_s8",
+            "x3",
+            "x5"
+        ],
+        "first_phase_time": 6.12330436706543,
+        "has_two_phases": false,
+        "total_time": 6.12330436706543
+    },
+    "83.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "_s3",
+            "_s7",
+            "x8",
+            "_s6",
+            "x1",
+            "x9",
+            "x2",
+            "_s10"
+        ],
+        "first_phase_time": 6.042242050170898,
+        "has_two_phases": false,
+        "total_time": 6.042242050170898
+    },
+    "84.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x1",
+            "_s4",
+            "x3",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x6",
+            "x4"
+        ],
+        "first_phase_time": 2.299785614013672,
+        "has_two_phases": false,
+        "total_time": 2.299785614013672
+    },
+    "85.lp": {
+        "status": "Optimal",
+        "value": 43.946273265759054,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x4",
+            "_s5",
+            "x10",
+            "_s7",
+            "x7",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.8477439880371094,
+        "has_two_phases": false,
+        "total_time": 2.853870391845703
+    },
+    "86.lp": {
+        "status": "Optimal",
+        "value": 26.320329557761763,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x3",
+            "x4",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x6",
+            "x1",
+            "_s8",
+            "x7",
+            "x2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "87.lp": {
+        "status": "Optimal",
+        "value": 25.59714346083106,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "x7",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x2",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "88.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x4",
+            "_s7",
+            "x1",
+            "_s8",
+            "_s9",
+            "x5"
+        ],
+        "first_phase_time": 5.513191223144531,
+        "has_two_phases": false,
+        "total_time": 5.513191223144531
+    },
+    "89.lp": {
+        "status": "Optimal",
+        "value": 28.154637764417817,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "x9",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.0025501251220703,
+        "has_two_phases": false,
+        "total_time": 1.0025501251220703
+    },
+    "90.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x8",
+            "x1",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "x5",
+            "x2",
+            "x4"
+        ],
+        "first_phase_time": 3.41796875,
+        "has_two_phases": false,
+        "total_time": 3.41796875
+    },
+    "91.lp": {
+        "status": "Optimal",
+        "value": 3.93223712202224,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x5",
+            "x9",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 2.7840137481689453,
+        "has_two_phases": false,
+        "total_time": 2.7840137481689453
+    },
+    "92.lp": {
+        "status": "Optimal",
+        "value": 38.33865540682381,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "_s8",
+            "_s3",
+            "_s5",
+            "_s6",
+            "x10",
+            "x1",
+            "x4",
+            "x9"
+        ],
+        "first_phase_time": 3.9834976196289062,
+        "has_two_phases": false,
+        "total_time": 3.9834976196289062
+    },
+    "93.lp": {
+        "status": "Optimal",
+        "value": 30.896685137892835,
+        "num_pivot_steps": 17,
+        "current_basis": [
+            "_s8",
+            "x3",
+            "_s4",
+            "x5",
+            "_s5",
+            "x9",
+            "_s7",
+            "x10",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.10804557800293,
+        "has_two_phases": false,
+        "total_time": 6.10804557800293
+    },
+    "94.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x3",
+            "x2",
+            "x7",
+            "x1"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "95.lp": {
+        "status": "Optimal",
+        "value": 23.82009893808375,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "x6",
+            "x8",
+            "_s4",
+            "_s5",
+            "x2",
+            "_s7",
+            "_s8",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "96.lp": {
+        "status": "Optimal",
+        "value": 98.78630901173578,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s1",
+            "x9",
+            "_s6",
+            "_s4",
+            "x3",
+            "x10",
+            "x4",
+            "_s8",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 4.658937454223633,
+        "has_two_phases": false,
+        "total_time": 4.658937454223633
+    },
+    "97.lp": {
+        "status": "Optimal",
+        "value": 1.8865979900249699,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x9",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "98.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x8",
+            "_s2",
+            "x5",
+            "_s4",
+            "_s5",
+            "x7",
+            "_s7",
+            "x1",
+            "x3",
+            "x2"
+        ],
+        "first_phase_time": 2.9485225677490234,
+        "has_two_phases": false,
+        "total_time": 2.9485225677490234
+    },
+    "99.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x2",
+            "_s1",
+            "_s3",
+            "x5",
+            "_s5",
+            "x3",
+            "_s7",
+            "x8",
+            "x4",
+            "x10"
+        ],
+        "first_phase_time": 5.39851188659668,
+        "has_two_phases": false,
+        "total_time": 5.39851188659668
+    },
+    "100.lp": {
+        "status": "Optimal",
+        "value": 26.563778477825604,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x6",
+            "_s1",
+            "_s3",
+            "_s4",
+            "x5",
+            "_s6",
+            "_s7",
+            "x8",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 3.426074981689453,
+        "has_two_phases": false,
+        "total_time": 3.426074981689453
+    },
+    "101.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "x7",
+            "x8",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x4",
+            "_s8",
+            "x5",
+            "x6"
+        ],
+        "first_phase_time": 2.6001930236816406,
+        "has_two_phases": false,
+        "total_time": 2.6001930236816406
+    },
+    "102.lp": {
+        "status": "Optimal",
+        "value": 159.86776716756836,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x7",
+            "x4",
+            "_s5",
+            "x3",
+            "x1",
+            "x6",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 4.060029983520508,
+        "has_two_phases": false,
+        "total_time": 4.060029983520508
+    },
+    "103.lp": {
+        "status": "Optimal",
+        "value": 100.99862990698303,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s9",
+            "_s2",
+            "x3",
+            "_s4",
+            "x4",
+            "_s6",
+            "_s7",
+            "x7",
+            "x5",
+            "x9"
+        ],
+        "first_phase_time": 4.003763198852539,
+        "has_two_phases": false,
+        "total_time": 4.003763198852539
+    },
+    "104.lp": {
+        "status": "Optimal",
+        "value": 7.063233000324609,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s4",
+            "_s9",
+            "x4",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x2",
+            "x5"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "105.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x8",
+            "x4",
+            "x3",
+            "x2",
+            "_s8",
+            "_s9",
+            "x6"
+        ],
+        "first_phase_time": 6.05320930480957,
+        "has_two_phases": false,
+        "total_time": 6.05320930480957
+    },
+    "106.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x7",
+            "x9",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s9",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 3.6711692810058594,
+        "has_two_phases": false,
+        "total_time": 3.6711692810058594
+    },
+    "107.lp": {
+        "status": "Optimal",
+        "value": 84.90569910574706,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "x8",
+            "_s4",
+            "x7",
+            "x10",
+            "x5",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 2.122640609741211,
+        "has_two_phases": false,
+        "total_time": 2.122640609741211
+    },
+    "108.lp": {
+        "status": "Optimal",
+        "value": 26.04932377825205,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s5",
+            "_s2",
+            "x7",
+            "_s4",
+            "x8",
+            "x5",
+            "_s7",
+            "_s1",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "109.lp": {
+        "status": "Optimal",
+        "value": 230.82235368047554,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x9",
+            "x3",
+            "_s3",
+            "x8",
+            "_s5",
+            "x4",
+            "_s7",
+            "x1",
+            "_s9",
+            "x10"
+        ],
+        "first_phase_time": 6.119251251220703,
+        "has_two_phases": false,
+        "total_time": 6.119251251220703
+    },
+    "110.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x3",
+            "x9",
+            "x2",
+            "_s4",
+            "_s5",
+            "x4",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 3.1783580780029297,
+        "has_two_phases": false,
+        "total_time": 3.1783580780029297
+    },
+    "111.lp": {
+        "status": "Optimal",
+        "value": 13.470468070559223,
+        "num_pivot_steps": 17,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "_s8",
+            "_s7",
+            "_s5",
+            "_s6",
+            "x9",
+            "_s1",
+            "x1",
+            "x2"
+        ],
+        "first_phase_time": 3.103017807006836,
+        "has_two_phases": false,
+        "total_time": 3.103017807006836
+    },
+    "112.lp": {
+        "status": "Optimal",
+        "value": 702.1630264197782,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x2",
+            "x5",
+            "x10",
+            "x6",
+            "_s5",
+            "x3",
+            "_s6",
+            "_s3",
+            "x8",
+            "x7"
+        ],
+        "first_phase_time": 4.552125930786133,
+        "has_two_phases": false,
+        "total_time": 4.552125930786133
+    },
+    "113.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x2",
+            "x1",
+            "_s3",
+            "x5",
+            "x3",
+            "x6",
+            "x8",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.9251575469970703,
+        "has_two_phases": false,
+        "total_time": 2.9251575469970703
+    },
+    "114.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "x1",
+            "x3",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x4",
+            "x5"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "115.lp": {
+        "status": "Optimal",
+        "value": 17.608519312287818,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x10",
+            "x4",
+            "x5",
+            "x1",
+            "_s5",
+            "_s6",
+            "_s10",
+            "_s8",
+            "_s9",
+            "x9"
+        ],
+        "first_phase_time": 6.127119064331055,
+        "has_two_phases": false,
+        "total_time": 6.127119064331055
+    },
+    "116.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x6",
+            "x2",
+            "_s3",
+            "_s4",
+            "x1",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 4.709959030151367,
+        "has_two_phases": false,
+        "total_time": 4.709959030151367
+    },
+    "117.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x5",
+            "x7",
+            "_s5",
+            "x3",
+            "x1",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 5.731105804443359,
+        "has_two_phases": false,
+        "total_time": 5.731105804443359
+    },
+    "118.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "_s3",
+            "x3",
+            "x5",
+            "x9",
+            "x1",
+            "x8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 4.880428314208984,
+        "has_two_phases": false,
+        "total_time": 4.880428314208984
+    },
+    "119.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "_s3",
+            "x4",
+            "_s5",
+            "x5",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.382589340209961,
+        "has_two_phases": false,
+        "total_time": 1.382589340209961
+    },
+    "120.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x2",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x3",
+            "_s7",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 2.8204917907714844,
+        "has_two_phases": false,
+        "total_time": 2.8204917907714844
+    },
+    "121.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x7",
+            "x3",
+            "_s3",
+            "x5",
+            "_s5",
+            "_s6",
+            "x1",
+            "_s8",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 3.811359405517578,
+        "has_two_phases": false,
+        "total_time": 3.811359405517578
+    },
+    "122.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x4",
+            "x6",
+            "_s3",
+            "_s4",
+            "x7",
+            "_s2",
+            "_s7",
+            "x5",
+            "_s8",
+            "_s10"
+        ],
+        "first_phase_time": 3.9529800415039062,
+        "has_two_phases": false,
+        "total_time": 3.9529800415039062
+    },
+    "123.lp": {
+        "status": "Optimal",
+        "value": 3.6754395615900175,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.4504661560058594,
+        "has_two_phases": false,
+        "total_time": 2.4504661560058594
+    },
+    "124.lp": {
+        "status": "Optimal",
+        "value": 6.539352306723283,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x9",
+            "x4",
+            "x8",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.04701042175293,
+        "has_two_phases": false,
+        "total_time": 6.04701042175293
+    },
+    "125.lp": {
+        "status": "Optimal",
+        "value": 32.9429673880679,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "x4",
+            "_s4",
+            "_s5",
+            "x1",
+            "x6",
+            "x9",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 3.2999515533447266,
+        "has_two_phases": false,
+        "total_time": 3.2999515533447266
+    },
+    "126.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x2",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x4",
+            "_s6",
+            "x1",
+            "_s8",
+            "_s9",
+            "x6"
+        ],
+        "first_phase_time": 1.9953250885009766,
+        "has_two_phases": false,
+        "total_time": 1.9953250885009766
+    },
+    "127.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x4",
+            "x6",
+            "x1"
+        ],
+        "first_phase_time": 2.4080276489257812,
+        "has_two_phases": false,
+        "total_time": 2.4080276489257812
+    },
+    "128.lp": {
+        "status": "Optimal",
+        "value": 260.3611213742088,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "_s7",
+            "_s10",
+            "_s3",
+            "x9",
+            "x4",
+            "x6",
+            "_s4",
+            "x2",
+            "_s6",
+            "x1"
+        ],
+        "first_phase_time": 6.022453308105469,
+        "has_two_phases": false,
+        "total_time": 6.022453308105469
+    },
+    "129.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "x2",
+            "x6",
+            "x7",
+            "x3",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.9379386901855469,
+        "has_two_phases": false,
+        "total_time": 0.9379386901855469
+    },
+    "130.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "_s3",
+            "x4",
+            "x2",
+            "x5",
+            "_s7",
+            "_s8",
+            "x6",
+            "_s10"
+        ],
+        "first_phase_time": 4.651784896850586,
+        "has_two_phases": false,
+        "total_time": 4.651784896850586
+    },
+    "131.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 1,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x3",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "132.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x6",
+            "_s9",
+            "x3"
+        ],
+        "first_phase_time": 3.518819808959961,
+        "has_two_phases": false,
+        "total_time": 3.518819808959961
+    },
+    "133.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "x5",
+            "x8",
+            "x6",
+            "x10",
+            "x1",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 5.763769149780273,
+        "has_two_phases": false,
+        "total_time": 5.763769149780273
+    },
+    "134.lp": {
+        "status": "Optimal",
+        "value": 18.42243190435959,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x6",
+            "x3",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.8526058197021484,
+        "has_two_phases": false,
+        "total_time": 3.8526058197021484
+    },
+    "135.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "x9",
+            "x8",
+            "x4",
+            "x5",
+            "x3",
+            "x2",
+            "_s10"
+        ],
+        "first_phase_time": 2.000093460083008,
+        "has_two_phases": false,
+        "total_time": 2.000093460083008
+    },
+    "136.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "x10",
+            "x4",
+            "x7",
+            "_s5",
+            "x2",
+            "x6",
+            "x8",
+            "_s9",
+            "x5"
+        ],
+        "first_phase_time": 2.6040077209472656,
+        "has_two_phases": false,
+        "total_time": 2.6040077209472656
+    },
+    "137.lp": {
+        "status": "Optimal",
+        "value": 22.88071056826318,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x9",
+            "x1",
+            "_s3",
+            "_s4",
+            "x6",
+            "_s6",
+            "_s7",
+            "x5",
+            "_s9",
+            "_s2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "138.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x4",
+            "_s1",
+            "x7",
+            "_s4",
+            "x1",
+            "x2",
+            "x10",
+            "x6",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 6.057024002075195,
+        "has_two_phases": false,
+        "total_time": 6.057024002075195
+    },
+    "139.lp": {
+        "status": "Optimal",
+        "value": 462.13644870136005,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "x9",
+            "x6",
+            "x5",
+            "x1",
+            "_s6",
+            "_s7",
+            "x7",
+            "_s3",
+            "x2"
+        ],
+        "first_phase_time": 2.3207664489746094,
+        "has_two_phases": false,
+        "total_time": 2.3207664489746094
+    },
+    "140.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x7",
+            "x1",
+            "_s3",
+            "_s4",
+            "x4",
+            "_s6",
+            "x6",
+            "x5",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.011486053466797,
+        "has_two_phases": false,
+        "total_time": 6.011486053466797
+    },
+    "141.lp": {
+        "status": "Optimal",
+        "value": 5.391438745844544,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x9",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x10",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s1"
+        ],
+        "first_phase_time": 2.8400421142578125,
+        "has_two_phases": false,
+        "total_time": 2.8400421142578125
+    },
+    "142.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 18,
+        "current_basis": [
+            "x1",
+            "x10",
+            "_s3",
+            "_s4",
+            "x7",
+            "x5",
+            "x8",
+            "x2",
+            "_s8",
+            "x6"
+        ],
+        "first_phase_time": 8.158206939697266,
+        "has_two_phases": false,
+        "total_time": 8.158206939697266
+    },
+    "143.lp": {
+        "status": "Optimal",
+        "value": 41.04489033851601,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x2",
+            "x8",
+            "x10",
+            "_s3",
+            "_s8",
+            "_s6",
+            "_s7",
+            "_s1",
+            "x3",
+            "_s10"
+        ],
+        "first_phase_time": 4.412651062011719,
+        "has_two_phases": false,
+        "total_time": 4.412651062011719
+    },
+    "144.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s5",
+            "x3",
+            "_s6",
+            "x2",
+            "x9",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "145.lp": {
+        "status": "Optimal",
+        "value": 141.92492865199017,
+        "num_pivot_steps": 15,
+        "current_basis": [
+            "x4",
+            "x9",
+            "_s3",
+            "_s4",
+            "x10",
+            "x5",
+            "x6",
+            "x3",
+            "x1",
+            "x2"
+        ],
+        "first_phase_time": 3.6530494689941406,
+        "has_two_phases": false,
+        "total_time": 3.6530494689941406
+    },
+    "146.lp": {
+        "status": "Optimal",
+        "value": 56.47148309517931,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s10",
+            "x3",
+            "_s3",
+            "x9",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x1",
+            "x2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.32258033752441406
+    },
+    "147.lp": {
+        "status": "Optimal",
+        "value": 50.45630675803834,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "x9",
+            "x8",
+            "x1",
+            "x5",
+            "_s5",
+            "_s8",
+            "_s7",
+            "x6",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.9979476928710938,
+        "has_two_phases": false,
+        "total_time": 1.9979476928710938
+    },
+    "148.lp": {
+        "status": "Optimal",
+        "value": 47.45729128391363,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "x7",
+            "_s4",
+            "x4",
+            "_s6",
+            "x2",
+            "x6",
+            "_s9",
+            "x10"
+        ],
+        "first_phase_time": 5.7048797607421875,
+        "has_two_phases": false,
+        "total_time": 5.7048797607421875
+    },
+    "149.lp": {
+        "status": "Optimal",
+        "value": 70.23970169650619,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x9",
+            "_s2",
+            "x1",
+            "x7",
+            "x10",
+            "x2",
+            "_s7",
+            "x4",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 6.013631820678711
+    },
+    "150.lp": {
+        "status": "Optimal",
+        "value": 88.90388360434544,
+        "num_pivot_steps": 16,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x5",
+            "_s4",
+            "x10",
+            "_s10",
+            "x8",
+            "_s8",
+            "_s9",
+            "x3"
+        ],
+        "first_phase_time": 6.079196929931641,
+        "has_two_phases": false,
+        "total_time": 6.079196929931641
+    },
+    "151.lp": {
+        "status": "Optimal",
+        "value": 10.793363147331092,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x7",
+            "x5",
+            "_s5",
+            "_s6",
+            "_s9",
+            "_s8",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 6.072998046875,
+        "has_two_phases": false,
+        "total_time": 6.072998046875
+    },
+    "152.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "x3",
+            "_s4",
+            "x6",
+            "x1",
+            "_s7",
+            "x2",
+            "_s9",
+            "x5"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "153.lp": {
+        "status": "Optimal",
+        "value": 18.86014893571854,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s9",
+            "_s2",
+            "_s3",
+            "x9",
+            "_s5",
+            "x2",
+            "_s7",
+            "_s8",
+            "x3",
+            "x4"
+        ],
+        "first_phase_time": 1.9924640655517578,
+        "has_two_phases": false,
+        "total_time": 1.9924640655517578
+    },
+    "154.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "x1",
+            "_s4",
+            "_s5",
+            "x8",
+            "_s7",
+            "x4",
+            "x5",
+            "x7"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "155.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "_s3",
+            "_s4",
+            "_s7",
+            "_s6",
+            "x3",
+            "x2",
+            "x10",
+            "x6"
+        ],
+        "first_phase_time": 6.452322006225586,
+        "has_two_phases": false,
+        "total_time": 6.452322006225586
+    },
+    "156.lp": {
+        "status": "Optimal",
+        "value": 32.698879604901606,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x9",
+            "_s7",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "157.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x4",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x3",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "158.lp": {
+        "status": "Optimal",
+        "value": 8.720177845283256,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x6",
+            "_s5",
+            "x4",
+            "x2",
+            "x10",
+            "x5",
+            "x9"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 3.1440258026123047
+    },
+    "159.lp": {
+        "status": "Optimal",
+        "value": 79.27613112967708,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x3",
+            "_s5",
+            "_s3",
+            "x8",
+            "x5",
+            "x7",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x9"
+        ],
+        "first_phase_time": 6.128787994384766,
+        "has_two_phases": false,
+        "total_time": 6.128787994384766
+    },
+    "160.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x5",
+            "x1",
+            "_s3",
+            "x10",
+            "x9",
+            "x3",
+            "x2",
+            "_s7",
+            "x6",
+            "_s10"
+        ],
+        "first_phase_time": 4.056215286254883,
+        "has_two_phases": false,
+        "total_time": 4.056215286254883
+    },
+    "161.lp": {
+        "status": "Optimal",
+        "value": 25.347212156870377,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "x8",
+            "x3",
+            "x5",
+            "_s6",
+            "x10",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.997159957885742,
+        "has_two_phases": false,
+        "total_time": 2.997159957885742
+    },
+    "162.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "x9",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "163.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x4",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "164.lp": {
+        "status": "Optimal",
+        "value": 41.18236682534536,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x7",
+            "x2",
+            "_s3",
+            "x4",
+            "x8",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s4",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "165.lp": {
+        "status": "Optimal",
+        "value": 764.1037285502331,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s1",
+            "x9",
+            "x6",
+            "x4",
+            "_s5",
+            "_s10",
+            "x1",
+            "_s3",
+            "x7",
+            "x3"
+        ],
+        "first_phase_time": 6.449222564697266,
+        "has_two_phases": false,
+        "total_time": 6.449222564697266
+    },
+    "166.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 5.693912506103516,
+        "has_two_phases": false,
+        "total_time": 5.693912506103516
+    },
+    "167.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x1",
+            "_s4",
+            "x8",
+            "_s6",
+            "x5",
+            "x6",
+            "x2",
+            "_s10"
+        ],
+        "first_phase_time": 2.7761459350585938,
+        "has_two_phases": false,
+        "total_time": 2.7761459350585938
+    },
+    "168.lp": {
+        "status": "Optimal",
+        "value": 26.88892834535755,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s3",
+            "_s5",
+            "x1",
+            "x5",
+            "x4",
+            "x2",
+            "x8",
+            "x7",
+            "_s9",
+            "x3"
+        ],
+        "first_phase_time": 3.3860206604003906,
+        "has_two_phases": false,
+        "total_time": 3.3860206604003906
+    },
+    "169.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x8",
+            "x6",
+            "x5",
+            "_s4",
+            "x7",
+            "x3",
+            "x9",
+            "_s8",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "170.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "x8",
+            "x4",
+            "x1",
+            "x9",
+            "x10",
+            "x5",
+            "_s9",
+            "x6"
+        ],
+        "first_phase_time": 5.988359451293945,
+        "has_two_phases": false,
+        "total_time": 5.988359451293945
+    },
+    "171.lp": {
+        "status": "Optimal",
+        "value": 38.20703763537074,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "x4",
+            "_s4",
+            "_s5",
+            "x2",
+            "_s7",
+            "x7",
+            "x6",
+            "_s10"
+        ],
+        "first_phase_time": 5.769968032836914,
+        "has_two_phases": false,
+        "total_time": 5.769968032836914
+    },
+    "172.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x2",
+            "_s2",
+            "x7",
+            "_s4",
+            "x3",
+            "x6",
+            "x5",
+            "x8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 4.313945770263672,
+        "has_two_phases": false,
+        "total_time": 4.313945770263672
+    },
+    "173.lp": {
+        "status": "Optimal",
+        "value": 17.781713270914125,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x4",
+            "x3",
+            "x5",
+            "x10",
+            "x1",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 6.090402603149414,
+        "has_two_phases": false,
+        "total_time": 6.090402603149414
+    },
+    "174.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "x8",
+            "_s5",
+            "_s6",
+            "x2",
+            "_s8",
+            "x3",
+            "x5"
+        ],
+        "first_phase_time": 2.178192138671875,
+        "has_two_phases": false,
+        "total_time": 2.178192138671875
+    },
+    "175.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "_s3",
+            "x2",
+            "x7",
+            "_s6",
+            "x8",
+            "x9",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 2.996683120727539,
+        "has_two_phases": false,
+        "total_time": 3.996133804321289
+    },
+    "176.lp": {
+        "status": "Optimal",
+        "value": 116.7884286611929,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x2",
+            "_s4",
+            "x7",
+            "_s6",
+            "x9",
+            "x4",
+            "_s3",
+            "x1"
+        ],
+        "first_phase_time": 6.063222885131836,
+        "has_two_phases": false,
+        "total_time": 6.063222885131836
+    },
+    "177.lp": {
+        "status": "Optimal",
+        "value": 51.14036741975673,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x9",
+            "x4",
+            "x5",
+            "x1",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.063699722290039,
+        "has_two_phases": false,
+        "total_time": 6.063699722290039
+    },
+    "178.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x4",
+            "x6",
+            "x1",
+            "x2",
+            "x3",
+            "_s6",
+            "_s7",
+            "x7",
+            "_s9",
+            "x5"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "179.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x2",
+            "_s2",
+            "x4",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x3",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "180.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "_s7",
+            "x4",
+            "_s2",
+            "x3",
+            "_s5",
+            "x5",
+            "x6",
+            "x2",
+            "x9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "181.lp": {
+        "status": "Optimal",
+        "value": 53.164822574919526,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x3",
+            "_s3",
+            "x10",
+            "_s5",
+            "_s6",
+            "x9",
+            "x1",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 5.721330642700195,
+        "has_two_phases": false,
+        "total_time": 5.721330642700195
+    },
+    "182.lp": {
+        "status": "Optimal",
+        "value": 24.25195452874651,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x7",
+            "x4",
+            "x2",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x5",
+            "x1"
+        ],
+        "first_phase_time": 3.8988590240478516,
+        "has_two_phases": false,
+        "total_time": 3.8988590240478516
+    },
+    "183.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x1",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x3",
+            "_s7",
+            "_s8",
+            "x4",
+            "x2"
+        ],
+        "first_phase_time": 6.011247634887695,
+        "has_two_phases": false,
+        "total_time": 6.011247634887695
+    },
+    "184.lp": {
+        "status": "Optimal",
+        "value": 12.634900579437936,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "x3",
+            "x9",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x8",
+            "x6",
+            "x5"
+        ],
+        "first_phase_time": 6.127357482910156,
+        "has_two_phases": false,
+        "total_time": 6.127357482910156
+    },
+    "185.lp": {
+        "status": "Optimal",
+        "value": 132.61117265825942,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x2",
+            "x7",
+            "x6",
+            "_s5",
+            "x4",
+            "x3",
+            "_s2",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.023168563842773,
+        "has_two_phases": false,
+        "total_time": 6.023168563842773
+    },
+    "186.lp": {
+        "status": "Optimal",
+        "value": 16.027121606849015,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x3",
+            "x6",
+            "x8",
+            "x1",
+            "_s5",
+            "_s7",
+            "x4",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 5.698204040527344,
+        "has_two_phases": false,
+        "total_time": 5.698204040527344
+    },
+    "187.lp": {
+        "status": "Optimal",
+        "value": 7.170261909125837,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "x8",
+            "_s3",
+            "x2",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 1.0046958923339844,
+        "has_two_phases": false,
+        "total_time": 1.0046958923339844
+    },
+    "188.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x3",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x4",
+            "_s7",
+            "x10",
+            "x1",
+            "x7"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "189.lp": {
+        "status": "Optimal",
+        "value": 0.39546470256987815,
+        "num_pivot_steps": 1,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x5",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.34618377685546875
+    },
+    "190.lp": {
+        "status": "Optimal",
+        "value": 6.7826985906028785,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "_s3",
+            "x9",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 3.076791763305664,
+        "has_two_phases": false,
+        "total_time": 3.076791763305664
+    },
+    "191.lp": {
+        "status": "Optimal",
+        "value": 35.81809165084311,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x10",
+            "_s2",
+            "_s4",
+            "x2",
+            "_s5",
+            "_s6",
+            "x1",
+            "x3",
+            "_s9",
+            "_s7"
+        ],
+        "first_phase_time": 2.3658275604248047,
+        "has_two_phases": false,
+        "total_time": 2.3658275604248047
+    },
+    "192.lp": {
+        "status": "Optimal",
+        "value": 14.45571525650326,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x2",
+            "x1",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 5.7220458984375
+    },
+    "193.lp": {
+        "status": "Optimal",
+        "value": 12.728022969708345,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x5",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.397008895874023,
+        "has_two_phases": false,
+        "total_time": 6.397008895874023
+    },
+    "194.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "x10",
+            "x6",
+            "_s5",
+            "x7",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 6.069421768188477,
+        "has_two_phases": false,
+        "total_time": 6.069421768188477
+    },
+    "195.lp": {
+        "status": "Optimal",
+        "value": 23.85876090804577,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "x10",
+            "x5",
+            "_s4",
+            "x7",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 6.02269172668457,
+        "has_two_phases": false,
+        "total_time": 6.02269172668457
+    },
+    "196.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x9",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x2",
+            "_s9",
+            "_s8",
+            "x5",
+            "x6"
+        ],
+        "first_phase_time": 6.096839904785156,
+        "has_two_phases": false,
+        "total_time": 6.096839904785156
+    },
+    "197.lp": {
+        "status": "Optimal",
+        "value": 43.141492364148135,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "x7",
+            "_s4",
+            "x9",
+            "x3",
+            "_s7",
+            "_s8",
+            "x6",
+            "_s10"
+        ],
+        "first_phase_time": 6.057262420654297,
+        "has_two_phases": false,
+        "total_time": 6.057262420654297
+    },
+    "198.lp": {
+        "status": "Optimal",
+        "value": 72.01227102751328,
+        "num_pivot_steps": 15,
+        "current_basis": [
+            "x9",
+            "x10",
+            "x2",
+            "_s4",
+            "_s5",
+            "x5",
+            "_s7",
+            "x6",
+            "_s6",
+            "_s10"
+        ],
+        "first_phase_time": 5.366086959838867,
+        "has_two_phases": false,
+        "total_time": 5.366086959838867
+    },
+    "199.lp": {
+        "status": "Optimal",
+        "value": 15.535182960198389,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s6",
+            "_s2",
+            "x6",
+            "_s4",
+            "x9",
+            "_s3",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "200.lp": {
+        "status": "Optimal",
+        "value": 31.488033552235038,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "x3",
+            "_s4",
+            "x9",
+            "x10",
+            "x5",
+            "_s8",
+            "x1",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "201.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "x1",
+            "x4",
+            "x7",
+            "_s6",
+            "_s3",
+            "x3",
+            "x2",
+            "x10"
+        ],
+        "first_phase_time": 6.101131439208984,
+        "has_two_phases": false,
+        "total_time": 6.101131439208984
+    },
+    "202.lp": {
+        "status": "Optimal",
+        "value": 29.073251894785344,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x8",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x7",
+            "x4",
+            "x3",
+            "_s8",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 6.061315536499023,
+        "has_two_phases": false,
+        "total_time": 6.061315536499023
+    },
+    "203.lp": {
+        "status": "Optimal",
+        "value": 7.361481372774532,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x10",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "204.lp": {
+        "status": "Optimal",
+        "value": 47.791196524243745,
+        "num_pivot_steps": 20,
+        "current_basis": [
+            "x10",
+            "x4",
+            "_s3",
+            "_s6",
+            "_s5",
+            "_s4",
+            "x9",
+            "_s2",
+            "_s8",
+            "_s10"
+        ],
+        "first_phase_time": 13.039827346801758,
+        "has_two_phases": false,
+        "total_time": 13.039827346801758
+    },
+    "205.lp": {
+        "status": "Optimal",
+        "value": 45.93714967633592,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x7",
+            "x3",
+            "x10",
+            "_s4",
+            "x9",
+            "_s6",
+            "x2",
+            "_s7",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 7.142543792724609,
+        "has_two_phases": false,
+        "total_time": 7.142543792724609
+    },
+    "206.lp": {
+        "status": "Optimal",
+        "value": 3.7633781938265,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "x8",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x10",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "207.lp": {
+        "status": "Optimal",
+        "value": 5.789033160946607,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x6",
+            "_s4",
+            "_s3",
+            "_s1",
+            "_s5",
+            "_s6",
+            "x10",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 1.2173652648925781
+    },
+    "208.lp": {
+        "status": "Optimal",
+        "value": 14.83836223655304,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "_s5",
+            "x8",
+            "x6",
+            "x10",
+            "_s8",
+            "_s3",
+            "_s7",
+            "x4",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.0203590393066406,
+        "has_two_phases": false,
+        "total_time": 2.0203590393066406
+    },
+    "209.lp": {
+        "status": "Optimal",
+        "value": 18.73848111680933,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x10",
+            "x3",
+            "_s3",
+            "x6",
+            "_s5",
+            "x5",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "210.lp": {
+        "status": "Optimal",
+        "value": 7.741476065857284,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "x9",
+            "_s10",
+            "_s4",
+            "_s5",
+            "x1",
+            "x4",
+            "_s6",
+            "x6",
+            "x8"
+        ],
+        "first_phase_time": 6.150245666503906,
+        "has_two_phases": false,
+        "total_time": 6.150245666503906
+    },
+    "211.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "212.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x7",
+            "x1",
+            "_s8",
+            "x2",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "213.lp": {
+        "status": "Optimal",
+        "value": 5.854606959990857,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x8",
+            "x5",
+            "x10",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "214.lp": {
+        "status": "Optimal",
+        "value": 8.614457902700739,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "_s3",
+            "x5",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "215.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 1,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "216.lp": {
+        "status": "Optimal",
+        "value": 14.731894086886138,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x5",
+            "_s7",
+            "_s8",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 2.371549606323242,
+        "has_two_phases": false,
+        "total_time": 2.371549606323242
+    },
+    "217.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x7",
+            "_s2",
+            "x9",
+            "x2",
+            "_s5",
+            "x5",
+            "x1",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.6516189575195312,
+        "has_two_phases": false,
+        "total_time": 3.6516189575195312
+    },
+    "218.lp": {
+        "status": "Optimal",
+        "value": 14.140262844054961,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x9",
+            "_s5",
+            "x2",
+            "x10",
+            "x3",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.6187171936035156,
+        "has_two_phases": false,
+        "total_time": 3.6187171936035156
+    },
+    "219.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x3",
+            "x5",
+            "x7",
+            "x1",
+            "x8",
+            "_s6",
+            "x6",
+            "_s8",
+            "x10",
+            "_s4"
+        ],
+        "first_phase_time": 2.5992393493652344,
+        "has_two_phases": false,
+        "total_time": 2.5992393493652344
+    },
+    "220.lp": {
+        "status": "Optimal",
+        "value": 4.2502966744361155,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "x9",
+            "x2",
+            "_s8",
+            "x7",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "221.lp": {
+        "status": "Optimal",
+        "value": 63.589716547377456,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "x4",
+            "_s3",
+            "x7",
+            "_s5",
+            "_s6",
+            "x9",
+            "_s9",
+            "x2",
+            "_s10"
+        ],
+        "first_phase_time": 4.132747650146484,
+        "has_two_phases": false,
+        "total_time": 4.132747650146484
+    },
+    "222.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 3,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "x1",
+            "_s4",
+            "_s5",
+            "x8",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "223.lp": {
+        "status": "Optimal",
+        "value": 2.1081426757651527,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x5",
+            "_s2",
+            "_s3",
+            "x2",
+            "_s5",
+            "_s6",
+            "x8",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.086566925048828,
+        "has_two_phases": false,
+        "total_time": 3.086566925048828
+    },
+    "224.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x1"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "225.lp": {
+        "status": "Optimal",
+        "value": 24.646002030491413,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s8",
+            "_s2",
+            "x4",
+            "x7",
+            "_s1",
+            "_s6",
+            "_s7",
+            "x8",
+            "x5",
+            "x2"
+        ],
+        "first_phase_time": 6.007909774780273,
+        "has_two_phases": false,
+        "total_time": 6.007909774780273
+    },
+    "226.lp": {
+        "status": "Optimal",
+        "value": 32.51058042725611,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x1",
+            "_s4",
+            "x9",
+            "x3",
+            "_s7",
+            "x5",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.3337860107421875,
+        "has_two_phases": false,
+        "total_time": 0.3337860107421875
+    },
+    "227.lp": {
+        "status": "Optimal",
+        "value": 11.578855513283498,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "x1",
+            "_s2",
+            "_s3",
+            "_s1",
+            "x5",
+            "x10",
+            "x6",
+            "_s8",
+            "_s9",
+            "_s4"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.31876564025878906
+    },
+    "228.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x9",
+            "x4",
+            "x8",
+            "x1",
+            "_s5",
+            "_s4",
+            "x3",
+            "x7",
+            "x5",
+            "_s10"
+        ],
+        "first_phase_time": 3.4592151641845703,
+        "has_two_phases": false,
+        "total_time": 3.4592151641845703
+    },
+    "229.lp": {
+        "status": "Optimal",
+        "value": 47.46548244997187,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x10",
+            "x8",
+            "x2",
+            "_s4",
+            "_s5",
+            "x6",
+            "_s7",
+            "x5",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 2.1839141845703125,
+        "has_two_phases": false,
+        "total_time": 2.1839141845703125
+    },
+    "230.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s7",
+            "_s4",
+            "_s5",
+            "x6",
+            "x5",
+            "x7",
+            "x1",
+            "x4"
+        ],
+        "first_phase_time": 2.7306079864501953,
+        "has_two_phases": false,
+        "total_time": 2.7306079864501953
+    },
+    "231.lp": {
+        "status": "Optimal",
+        "value": 140.25912224186604,
+        "num_pivot_steps": 14,
+        "current_basis": [
+            "x8",
+            "x4",
+            "_s3",
+            "x5",
+            "x9",
+            "_s6",
+            "_s7",
+            "x2",
+            "_s4",
+            "x6"
+        ],
+        "first_phase_time": 6.728410720825195,
+        "has_two_phases": false,
+        "total_time": 6.728410720825195
+    },
+    "232.lp": {
+        "status": "Optimal",
+        "value": 107.13900578387832,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x5",
+            "_s3",
+            "x1",
+            "x6",
+            "x10",
+            "x3",
+            "_s7",
+            "_s8",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 2.501249313354492,
+        "has_two_phases": false,
+        "total_time": 2.501249313354492
+    },
+    "233.lp": {
+        "status": "Optimal",
+        "value": 18.70849421193475,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x4",
+            "_s2",
+            "x9",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x7",
+            "x10",
+            "_s9",
+            "x3"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "234.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "_s3",
+            "x8",
+            "x7",
+            "_s6",
+            "_s7",
+            "_s8",
+            "x4",
+            "x3"
+        ],
+        "first_phase_time": 6.438255310058594,
+        "has_two_phases": false,
+        "total_time": 6.438255310058594
+    },
+    "235.lp": {
+        "status": "Optimal",
+        "value": 3.3441022957198445,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "x9",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "236.lp": {
+        "status": "Optimal",
+        "value": 16.950898256023915,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x5",
+            "_s4",
+            "_s3",
+            "_s6",
+            "x10",
+            "_s8",
+            "x9",
+            "x4"
+        ],
+        "first_phase_time": 4.937410354614258,
+        "has_two_phases": false,
+        "total_time": 4.937410354614258
+    },
+    "237.lp": {
+        "status": "Optimal",
+        "value": 19.755427371580083,
+        "num_pivot_steps": 12,
+        "current_basis": [
+            "_s1",
+            "_s3",
+            "x8",
+            "_s6",
+            "x3",
+            "x1",
+            "x9",
+            "_s7",
+            "x10",
+            "x2"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.4296302795410156
+    },
+    "238.lp": {
+        "status": "Optimal",
+        "value": 10.928253252470812,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "_s1",
+            "x3",
+            "x1",
+            "_s4",
+            "x10",
+            "x4",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.8111209869384766,
+        "has_two_phases": false,
+        "total_time": 3.8111209869384766
+    },
+    "239.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 2,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "x3",
+            "_s5",
+            "_s6",
+            "_s7",
+            "x6",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "240.lp": {
+        "status": "Optimal",
+        "value": 20.626614178183992,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "x7",
+            "x1",
+            "x8",
+            "_s4",
+            "x2",
+            "x3",
+            "x4",
+            "x9",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 4.168033599853516,
+        "has_two_phases": false,
+        "total_time": 4.168033599853516
+    },
+    "241.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 6,
+        "current_basis": [
+            "x5",
+            "x4",
+            "x1",
+            "_s4",
+            "x6",
+            "_s6",
+            "_s7",
+            "_s8",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 3.1299591064453125,
+        "has_two_phases": false,
+        "total_time": 3.1299591064453125
+    },
+    "242.lp": {
+        "status": "Optimal",
+        "value": 69.57813730864817,
+        "num_pivot_steps": 10,
+        "current_basis": [
+            "x8",
+            "x9",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x5",
+            "_s7",
+            "x6",
+            "x3"
+        ],
+        "first_phase_time": 0.6473064422607422,
+        "has_two_phases": false,
+        "total_time": 0.6473064422607422
+    },
+    "243.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 7,
+        "current_basis": [
+            "x2",
+            "x1",
+            "_s3",
+            "x4",
+            "x6",
+            "x10",
+            "_s7",
+            "x3",
+            "_s9",
+            "x8"
+        ],
+        "first_phase_time": 6.060123443603516,
+        "has_two_phases": false,
+        "total_time": 6.060123443603516
+    },
+    "244.lp": {
+        "status": "Optimal",
+        "value": 25.756253735805284,
+        "num_pivot_steps": 5,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "_s3",
+            "_s4",
+            "_s5",
+            "_s6",
+            "x4",
+            "x2",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 5.645990371704102,
+        "has_two_phases": false,
+        "total_time": 5.645990371704102
+    },
+    "245.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 11,
+        "current_basis": [
+            "x6",
+            "_s2",
+            "_s10",
+            "x9",
+            "x2",
+            "_s6",
+            "_s7",
+            "x4",
+            "_s9",
+            "x7"
+        ],
+        "first_phase_time": 6.459236145019531,
+        "has_two_phases": false,
+        "total_time": 6.459236145019531
+    },
+    "246.lp": {
+        "status": "Optimal",
+        "value": 33.67767007462925,
+        "num_pivot_steps": 13,
+        "current_basis": [
+            "x10",
+            "_s2",
+            "x1",
+            "x7",
+            "_s1",
+            "_s6",
+            "x9",
+            "_s3",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 6.090402603149414,
+        "has_two_phases": false,
+        "total_time": 6.090402603149414
+    },
+    "247.lp": {
+        "status": "Optimal",
+        "value": 23.56155353595213,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "x5",
+            "x4",
+            "_s3",
+            "_s4",
+            "x7",
+            "_s1",
+            "x1",
+            "x9",
+            "_s9",
+            "x3"
+        ],
+        "first_phase_time": 6.0596466064453125,
+        "has_two_phases": false,
+        "total_time": 6.0596466064453125
+    },
+    "248.lp": {
+        "status": "Optimal",
+        "value": 63.08904964344901,
+        "num_pivot_steps": 8,
+        "current_basis": [
+            "_s1",
+            "x10",
+            "_s3",
+            "x8",
+            "x6",
+            "_s6",
+            "_s7",
+            "x1",
+            "x4",
+            "_s10"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "249.lp": {
+        "status": "Optimal",
+        "value": 43.938554745847625,
+        "num_pivot_steps": 15,
+        "current_basis": [
+            "_s4",
+            "x6",
+            "x10",
+            "_s6",
+            "x4",
+            "x3",
+            "_s7",
+            "_s8",
+            "x8",
+            "_s10"
+        ],
+        "first_phase_time": 6.41632080078125,
+        "has_two_phases": false,
+        "total_time": 6.41632080078125
+    },
+    "250.lp": {
+        "status": "Unbounded",
+        "value": Infinity,
+        "num_pivot_steps": 4,
+        "current_basis": [
+            "_s1",
+            "_s2",
+            "x6",
+            "_s4",
+            "x3",
+            "x5",
+            "_s7",
+            "x1",
+            "_s9",
+            "_s10"
+        ],
+        "first_phase_time": 1.6474723815917969,
+        "has_two_phases": false,
+        "total_time": 1.6474723815917969
+    }
+}

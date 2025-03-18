@@ -1,0 +1,22 @@
+{
+    "total_time": {
+        "dantzig": 4529.476526354955,
+        "random": 7154.632304325577,
+        "steepest_edge": 2080.2161693573
+    },
+    "num_pivot_steps_first_phase": {
+        "dantzig": 116.67768595041322,
+        "random": 241.72727272727272,
+        "steepest_edge": 64.38842975206612
+    },
+    "num_pivot_steps_second_phase": {
+        "dantzig": 26.239669421487605,
+        "random": 40.47933884297521,
+        "steepest_edge": 22.512396694214875
+    },
+    "num_pivot_steps_total": {
+        "dantzig": 142.91735537190084,
+        "random": 282.20661157024796,
+        "steepest_edge": 86.90082644628099
+    }
+}

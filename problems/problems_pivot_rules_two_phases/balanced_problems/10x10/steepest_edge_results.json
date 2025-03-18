@@ -1,0 +1,2316 @@
+{
+    "1.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.47850608825683594
+    },
+    "2.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.989603042602539,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.6025772094726562
+    },
+    "3.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.222869873046875,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 3.001689910888672,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Optimal",
+        "value": 16.34124222741076,
+        "total_time": 8.223772048950195
+    },
+    "4.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.999876022338867,
+        "num_pivot_steps_first_phase": 10,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 4.999876022338867
+    },
+    "5.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "6.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.8869380950927734,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.3976097106933594,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -106.72370951616038,
+        "total_time": 5.284547805786133
+    },
+    "7.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.83338737487793,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -53.86777355166406,
+        "total_time": 5.83338737487793
+    },
+    "8.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 5.559682846069336,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.559682846069336
+    },
+    "9.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.98309326171875,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.98309326171875
+    },
+    "10.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.982616424560547,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 3.0350685119628906,
+        "num_pivot_steps_second_phase": 6,
+        "status": "Optimal",
+        "value": 74.27548095917794,
+        "total_time": 6.0176849365234375
+    },
+    "11.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.983425140380859,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -134.471934549917,
+        "total_time": 4.983425140380859
+    },
+    "12.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.730628967285156,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.730628967285156
+    },
+    "13.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.0232200622558594,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.0232200622558594
+    },
+    "14.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.2383460998535156,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.5850067138671875
+    },
+    "15.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.1747817993164062,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 2.508878707885742,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.683660507202148
+    },
+    "16.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.975484848022461,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.975484848022461
+    },
+    "17.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 6.325244903564453,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.325244903564453
+    },
+    "18.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "19.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.9146881103515625,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.9146881103515625
+    },
+    "20.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.32138824462890625,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 3.443479537963867,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.991769790649414
+    },
+    "21.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "22.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.6971569061279297,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.3833770751953125,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -1.4269144902427724,
+        "total_time": 4.080533981323242
+    },
+    "23.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.385948181152344,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.385948181152344
+    },
+    "24.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "25.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.5041828155517578,
+        "num_pivot_steps_first_phase": 3,
+        "second_phase_time": 1.573801040649414,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": -1.8634475358034,
+        "total_time": 3.077983856201172
+    },
+    "26.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.049228668212891,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.049228668212891
+    },
+    "27.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "28.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "29.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 1,
+        "second_phase_time": 2.864837646484375,
+        "num_pivot_steps_second_phase": 9,
+        "status": "Optimal",
+        "value": 75.4300121200591,
+        "total_time": 2.864837646484375
+    },
+    "30.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.7741451263427734,
+        "num_pivot_steps_first_phase": 2,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.7741451263427734
+    },
+    "31.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.726482391357422,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.726482391357422
+    },
+    "32.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 4.6443939208984375,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.6443939208984375
+    },
+    "33.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.302833557128906,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.302833557128906
+    },
+    "34.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 4.904270172119141,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": -4.351118079355411,
+        "total_time": 4.904270172119141
+    },
+    "35.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.9069652557373047,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.9069652557373047
+    },
+    "36.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 5.567312240600586,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": -26.366236121318572,
+        "total_time": 5.567312240600586
+    },
+    "37.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0204315185546875,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.285003662109375
+    },
+    "38.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.993511199951172,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.993511199951172
+    },
+    "39.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.7843246459960938,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 1.7843246459960938
+    },
+    "40.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.4077892303466797,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.4077892303466797
+    },
+    "41.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.631923675537109,
+        "num_pivot_steps_first_phase": 10,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.631923675537109
+    },
+    "42.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.9795169830322266,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 1.1990070343017578,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.178524017333984
+    },
+    "43.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.685091018676758,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.685091018676758
+    },
+    "44.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.784252166748047,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.784252166748047
+    },
+    "45.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Optimal",
+        "value": 66.65701416263448,
+        "total_time": 0.0
+    },
+    "46.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0614395141601562,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.068208694458008
+    },
+    "47.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 11.433601379394531,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.3123283386230469,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 12.055397033691406
+    },
+    "48.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "49.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "50.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.2378692626953125,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Optimal",
+        "value": -9.360146250116344,
+        "total_time": 1.2378692626953125
+    },
+    "51.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "52.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Optimal",
+        "value": 9.885190908817028,
+        "total_time": 0.0
+    },
+    "53.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.1723041534423828,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 1.1723041534423828
+    },
+    "54.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.366304397583008,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.8938312530517578,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.2601356506347656
+    },
+    "55.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.092216491699219,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 4.092216491699219
+    },
+    "56.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 2,
+        "second_phase_time": 1.1396408081054688,
+        "num_pivot_steps_second_phase": 6,
+        "status": "Optimal",
+        "value": 70.51485546623046,
+        "total_time": 3.2591819763183594
+    },
+    "57.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "58.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.316640853881836,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.36835670471191406,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": 18.536144620616003,
+        "total_time": 4.020452499389648
+    },
+    "59.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.268190383911133,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": 9.754798056196428,
+        "total_time": 7.268190383911133
+    },
+    "60.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.103204727172852,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 7.103204727172852
+    },
+    "61.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "62.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 1,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "63.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.8422603607177734,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.8422603607177734
+    },
+    "64.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.4233589172363281,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.9289722442626953
+    },
+    "65.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.9629726409912109,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 5.549430847167969,
+        "num_pivot_steps_second_phase": 9,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.51240348815918
+    },
+    "66.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0242462158203125,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 1.0242462158203125
+    },
+    "67.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.6649494171142578,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.6649494171142578
+    },
+    "68.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.2417774200439453,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.2417774200439453
+    },
+    "69.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.705118179321289,
+        "num_pivot_steps_first_phase": 11,
+        "second_phase_time": 0.5543231964111328,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.259441375732422
+    },
+    "70.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.090381622314453,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 1.878976821899414,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 63.57643102208517,
+        "total_time": 4.969358444213867
+    },
+    "71.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "72.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.079103469848633,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 4.079103469848633
+    },
+    "73.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "74.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.5202503204345703,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.5202503204345703
+    },
+    "75.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 2,
+        "second_phase_time": 3.2777786254882812,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 30.24564721400506,
+        "total_time": 3.2777786254882812
+    },
+    "76.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.492189407348633,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.492189407348633
+    },
+    "77.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.5300254821777344,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.5300254821777344
+    },
+    "78.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 5.532026290893555,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 39.18352908657862,
+        "total_time": 5.532026290893555
+    },
+    "79.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.3484230041503906,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.3484230041503906
+    },
+    "80.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.427909851074219,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 1.1725425720214844,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.647825241088867
+    },
+    "81.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.8537769317626953,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.361846923828125
+    },
+    "82.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 10.106086730957031,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.3845691680908203,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 11.68680191040039
+    },
+    "83.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.485223770141602,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 2.940654754638672,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 9.425878524780273
+    },
+    "84.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.570888519287109,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.8879852294921875
+    },
+    "85.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": 10.867435044601446,
+        "total_time": 0.0
+    },
+    "86.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.008199691772461,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.008199691772461
+    },
+    "87.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -9.802697531990821,
+        "total_time": 0.0
+    },
+    "88.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.1701583862304688,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 2.935171127319336,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.105329513549805
+    },
+    "89.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.013393402099609,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 1.2416839599609375,
+        "num_pivot_steps_second_phase": 6,
+        "status": "Optimal",
+        "value": 12.67901512210573,
+        "total_time": 8.183717727661133
+    },
+    "90.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 6.490945816040039,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.490945816040039
+    },
+    "91.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "92.lp": {
+        "status": "Optimal",
+        "value": 25.19279557517587,
+        "num_pivot_steps": 9,
+        "current_basis": [
+            "_s1",
+            "x5",
+            "x1",
+            "x9",
+            "_s5",
+            "_s6",
+            "x4",
+            "_s8",
+            "x2",
+            "_s3"
+        ],
+        "first_phase_time": 0.0,
+        "has_two_phases": false,
+        "total_time": 0.0
+    },
+    "93.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": -13.044825194416134,
+        "total_time": 0.0
+    },
+    "94.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.457090377807617,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.457090377807617
+    },
+    "95.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 1,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Optimal",
+        "value": 14.323542493862615,
+        "total_time": 0.0
+    },
+    "96.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 25.48330603732092,
+        "total_time": 0.0
+    },
+    "97.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.7275810241699219,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 11.745452880859375
+    },
+    "98.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.257274627685547,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.257274627685547
+    },
+    "99.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 6.003618240356445,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.003618240356445
+    },
+    "100.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.9865036010742188,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.2885074615478516
+    },
+    "101.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 8.19253921508789,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.4023780822753906,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 9.594917297363281
+    },
+    "102.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.766630172729492,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.766630172729492
+    },
+    "103.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.1665821075439453
+    },
+    "104.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 13.668537139892578,
+        "num_pivot_steps_first_phase": 12,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -135.0001040435573,
+        "total_time": 13.668537139892578
+    },
+    "105.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 8.624076843261719,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 1.4307498931884766,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 10.054826736450195
+    },
+    "106.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.805347442626953,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 3.4961700439453125,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 11.301517486572266
+    },
+    "107.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "108.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "109.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.787538528442383,
+        "num_pivot_steps_first_phase": 11,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.787538528442383
+    },
+    "110.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0013580322265625,
+        "num_pivot_steps_first_phase": 3,
+        "second_phase_time": 1.3914108276367188,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.3927688598632812
+    },
+    "111.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.804538726806641,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.804538726806641
+    },
+    "112.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.78472900390625,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 1.9998550415039062,
+        "num_pivot_steps_second_phase": 6,
+        "status": "Optimal",
+        "value": 179.04554553955634,
+        "total_time": 7.28917121887207
+    },
+    "113.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.980802536010742,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 4.038333892822266,
+        "num_pivot_steps_second_phase": 8,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 9.019136428833008
+    },
+    "114.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.884408950805664,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.884408950805664
+    },
+    "115.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.670070648193359,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 1.0073184967041016,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -15.393009445930245,
+        "total_time": 6.677389144897461
+    },
+    "116.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.66973876953125,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.66973876953125
+    },
+    "117.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.2242794036865234,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.0058879852294922,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.32276725769043
+    },
+    "118.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.168893814086914,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 1.386880874633789,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.555774688720703
+    },
+    "119.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.5779476165771484,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 1.4379024505615234,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.015850067138672
+    },
+    "120.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.5215873718261719,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 4.839658737182617,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.722450256347656
+    },
+    "121.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.3387203216552734,
+        "num_pivot_steps_first_phase": 3,
+        "second_phase_time": 1.1081695556640625,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.446889877319336
+    },
+    "122.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.074977874755859,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.074977874755859
+    },
+    "123.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.534627914428711,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Optimal",
+        "value": -41.04603591662233,
+        "total_time": 3.006458282470703
+    },
+    "124.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.9999275207519531,
+        "num_pivot_steps_first_phase": 2,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.9999275207519531
+    },
+    "125.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -119.159129428091,
+        "total_time": 0.5993843078613281
+    },
+    "126.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.594087600708008,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 3.4804344177246094,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 9.587287902832031
+    },
+    "127.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.8487911224365234,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.8487911224365234
+    },
+    "128.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.498264312744141,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 7.498264312744141
+    },
+    "129.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "130.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "131.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.651235580444336,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.651235580444336
+    },
+    "132.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.3833770751953125,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 1.9159317016601562,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.2993087768554688
+    },
+    "133.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.302408218383789,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.811452865600586
+    },
+    "134.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.3232231140136719,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.3232231140136719
+    },
+    "135.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.842447280883789,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.842447280883789
+    },
+    "136.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.6602020263671875,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.4496574401855469,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.3806304931640625
+    },
+    "137.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.854585647583008,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.854585647583008
+    },
+    "138.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 5.940437316894531,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.940437316894531
+    },
+    "139.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.1224021911621094,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 282.4575723161026,
+        "total_time": 2.1224021911621094
+    },
+    "140.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.397392272949219,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 1.6160011291503906,
+        "num_pivot_steps_second_phase": 8,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.013393402099609
+    },
+    "141.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.0622482299804688,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.0622482299804688
+    },
+    "142.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "143.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.8472671508789062,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.8472671508789062
+    },
+    "144.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.5056133270263672,
+        "num_pivot_steps_first_phase": 3,
+        "second_phase_time": 2.0046234130859375,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.5102367401123047
+    },
+    "145.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.901979446411133,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.901979446411133
+    },
+    "146.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.888845443725586,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.888845443725586
+    },
+    "147.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.9598941802978516,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.9598941802978516
+    },
+    "148.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.7894248962402344,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.7894248962402344
+    },
+    "149.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.42819976806640625
+    },
+    "150.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.9959678649902344,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 2.142667770385742,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Optimal",
+        "value": 65.44887451623082,
+        "total_time": 5.803108215332031
+    },
+    "151.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.272699356079102,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Optimal",
+        "value": -188.1199793324479,
+        "total_time": 4.695653915405273
+    },
+    "152.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.06846809387207,
+        "num_pivot_steps_first_phase": 11,
+        "second_phase_time": 2.004861831665039,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 8.91876220703125
+    },
+    "153.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "154.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.3636093139648438,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.0526180267333984,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.416227340698242
+    },
+    "155.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.3469200134277344,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 2.011537551879883,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.362438201904297
+    },
+    "156.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -39.48652370431852,
+        "total_time": 5.258798599243164
+    },
+    "157.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.7010440826416016,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.7010440826416016
+    },
+    "158.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.471923828125,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.471923828125
+    },
+    "159.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.389596939086914,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.389596939086914
+    },
+    "160.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.239414215087891,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.239414215087891
+    },
+    "161.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "162.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0654926300048828,
+        "num_pivot_steps_first_phase": 1,
+        "second_phase_time": 1.2137889862060547,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.2792816162109375
+    },
+    "163.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.092548370361328,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 1.0066032409667969,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 7.47990608215332
+    },
+    "164.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.503084182739258
+    },
+    "165.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.886129379272461,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 7.916688919067383
+    },
+    "166.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "167.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.144357681274414,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.144357681274414
+    },
+    "168.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.6896209716796875,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Optimal",
+        "value": 9.44093466582173,
+        "total_time": 5.6896209716796875
+    },
+    "169.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 5.53584098815918,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.53584098815918
+    },
+    "170.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.534151077270508,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.534151077270508
+    },
+    "171.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.9571056365966797,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.9571056365966797
+    },
+    "172.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.261421203613281,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.7786750793457031,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.040096282958984
+    },
+    "173.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.567291259765625,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Optimal",
+        "value": -46.12796708003237,
+        "total_time": 2.567291259765625
+    },
+    "174.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.7723312377929688,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 3.0820369720458984,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.854368209838867
+    },
+    "175.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.647182464599609,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 3.0736923217773438,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 8.720874786376953
+    },
+    "176.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.630659103393555,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.630659103393555
+    },
+    "177.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.0984878540039062,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.0984878540039062
+    },
+    "178.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.611730575561523,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 0.8337497711181641,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.444454193115234
+    },
+    "179.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.000020980834961,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 1.0020732879638672,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.002094268798828
+    },
+    "180.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.6194324493408203,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.6194324493408203
+    },
+    "181.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.563425064086914,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.563425064086914
+    },
+    "182.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.4101009368896484,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.4101009368896484
+    },
+    "183.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 4.487514495849609,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.487514495849609
+    },
+    "184.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.7158985137939453,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -6.362253718859904,
+        "total_time": 4.155397415161133
+    },
+    "185.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "186.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "187.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.909421920776367,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.909421920776367
+    },
+    "188.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 5.959272384643555,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.959272384643555
+    },
+    "189.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.3446083068847656,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -13.451669042352341,
+        "total_time": 2.3446083068847656
+    },
+    "190.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 2,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.224466323852539
+    },
+    "191.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.81524658203125,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.81524658203125
+    },
+    "192.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.709264755249023,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -67.20390074832935,
+        "total_time": 7.709264755249023
+    },
+    "193.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "194.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.1720657348632812,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 4.036903381347656,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.2089691162109375
+    },
+    "195.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.373405456542969,
+        "num_pivot_steps_first_phase": 10,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.373405456542969
+    },
+    "196.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 5.713224411010742,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.713224411010742
+    },
+    "197.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.022287368774414,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.022287368774414
+    },
+    "198.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.008604049682617,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Optimal",
+        "value": 14.581651815141454,
+        "total_time": 3.008604049682617
+    },
+    "199.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.672693252563477,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.672693252563477
+    },
+    "200.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "201.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.684375762939453,
+        "num_pivot_steps_first_phase": 10,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.684375762939453
+    },
+    "202.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.9582977294921875,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.9582977294921875
+    },
+    "203.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "204.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.659320831298828,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.659320831298828
+    },
+    "205.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.378650665283203,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.378650665283203
+    },
+    "206.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.8134117126464844,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.8134117126464844
+    },
+    "207.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.421089172363281,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.421089172363281
+    },
+    "208.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.30159950256347656,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.8145313262939453
+    },
+    "209.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.5056133270263672,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.5056133270263672
+    },
+    "210.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.44230842590332,
+        "num_pivot_steps_first_phase": 10,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 6.44230842590332
+    },
+    "211.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 7.050037384033203,
+        "num_pivot_steps_first_phase": 12,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 7.050037384033203
+    },
+    "212.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.4081001281738281,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 1.4081001281738281
+    },
+    "213.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.460262298583984,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.460262298583984
+    },
+    "214.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.116939544677734,
+        "num_pivot_steps_first_phase": 10,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.116939544677734
+    },
+    "215.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 5.573511123657227,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.573511123657227
+    },
+    "216.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.1097869873046875,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 5.1097869873046875
+    },
+    "217.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.849361419677734,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.849361419677734
+    },
+    "218.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "219.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 4.6749114990234375,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 4.6749114990234375
+    },
+    "220.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "221.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "222.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 2,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 7,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 0.0
+    },
+    "223.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.2074451446533203,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 0.598907470703125,
+        "num_pivot_steps_second_phase": 1,
+        "status": "Optimal",
+        "value": -41.72567733935372,
+        "total_time": 3.8063526153564453
+    },
+    "224.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 6.3323974609375,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.5060901641845703,
+        "num_pivot_steps_second_phase": 0,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 7.83848762512207
+    },
+    "225.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.6883144378662109,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.2684803009033203
+    },
+    "226.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.5049705505371094,
+        "num_pivot_steps_first_phase": 2,
+        "second_phase_time": 1.1277198791503906,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": 22.485684656006317,
+        "total_time": 1.6326904296875
+    },
+    "227.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.0
+    },
+    "228.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.363702774047852,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 1.0004043579101562,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.364107131958008
+    },
+    "229.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.6187171936035156,
+        "num_pivot_steps_first_phase": 7,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.6187171936035156
+    },
+    "230.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.0002593994140625,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 0.67901611328125,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.9987564086914062
+    },
+    "231.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 4.111289978027344,
+        "num_pivot_steps_first_phase": 9,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 4.111289978027344
+    },
+    "232.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.0,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 0.4811286926269531
+    },
+    "233.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.5971660614013672,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.6307106018066406
+    },
+    "234.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 5.646467208862305,
+        "num_pivot_steps_first_phase": 9,
+        "second_phase_time": 2.5064945220947266,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 8.152961730957031
+    },
+    "235.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.0385513305664062,
+        "num_pivot_steps_first_phase": 3,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.0385513305664062
+    },
+    "236.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.546072006225586,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.546072006225586
+    },
+    "237.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.504514694213867,
+        "num_pivot_steps_first_phase": 8,
+        "second_phase_time": 1.214742660522461,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": -15.111837725493208,
+        "total_time": 4.719257354736328
+    },
+    "238.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.0379295349121094,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.0008811950683594,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -23.81475218017832,
+        "total_time": 4.038810729980469
+    },
+    "239.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.8622875213623047,
+        "num_pivot_steps_first_phase": 5,
+        "second_phase_time": 2.0563602447509766,
+        "num_pivot_steps_second_phase": 5,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 3.9186477661132812
+    },
+    "240.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.7065277099609375,
+        "num_pivot_steps_first_phase": 6,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 3.258228302001953
+    },
+    "241.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.0689239501953125,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 2.206563949584961,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 6.27589225769043
+    },
+    "242.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.2384395599365234,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 1.0411739349365234,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Optimal",
+        "value": 16.383992359172357,
+        "total_time": 4.279613494873047
+    },
+    "243.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.0341873168945312,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.8627643585205078,
+        "num_pivot_steps_second_phase": 4,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.047082901000977
+    },
+    "244.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.1109580993652344,
+        "num_pivot_steps_first_phase": 6,
+        "second_phase_time": 1.001119613647461,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Optimal",
+        "value": -36.87564303808977,
+        "total_time": 4.142284393310547
+    },
+    "245.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 2.9015541076660156,
+        "num_pivot_steps_first_phase": 7,
+        "second_phase_time": 2.2385120391845703,
+        "num_pivot_steps_second_phase": 3,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 5.140066146850586
+    },
+    "246.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.9676685333251953,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.9676685333251953
+    },
+    "247.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.9659996032714844,
+        "num_pivot_steps_first_phase": 5,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 2.969980239868164
+    },
+    "248.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 3.9060115814208984,
+        "num_pivot_steps_first_phase": 8,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 4.8980712890625
+    },
+    "249.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 1.9829273223876953,
+        "num_pivot_steps_first_phase": 4,
+        "status": "Infeasible",
+        "value": -Infinity,
+        "total_time": 1.9829273223876953
+    },
+    "250.lp": {
+        "has_two_phases": true,
+        "first_phase_time": 0.9799003601074219,
+        "num_pivot_steps_first_phase": 4,
+        "second_phase_time": 0.0,
+        "num_pivot_steps_second_phase": 2,
+        "status": "Unbounded",
+        "value": Infinity,
+        "total_time": 2.017974853515625
+    }
+}
