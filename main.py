@@ -7,7 +7,7 @@ lp_parser = LPParser()
 # print(lp_parser)
 filename = sys.argv[1]
 lp_parser.parse_file(f"{filename}")
-solver = SimplexSolver(pivot_rule="Dantzig")
+solver = SimplexSolver(pivot_rule="SteepestEdge")
 
 start_time = time.time()
 print(solver.solve(lp_parser))

@@ -41,6 +41,8 @@ class DenseLPGenerator:
             
             for i, coef in enumerate(obj_coefficients):
                 coef = round(coef, self.precision)
+                if coef == 0:
+                    continue
                 if i == 0:
                     f.write(f'{coef}x{i+1} ')
                 else:
@@ -54,6 +56,8 @@ class DenseLPGenerator:
                 
                 for j, coef in enumerate(coefficients):
                     coef = round(coef, self.precision)
+                    if coef == 0:
+                        continue
                     if j == 0:
                         f.write(f'{coef}x{j+1} ')
                     else:
