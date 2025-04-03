@@ -1,0 +1,1752 @@
+{
+  "1.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7349908351898193,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8905773162841797,
+    "interior_return_code": 0
+  },
+  "10.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7699944972991943,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9936494827270508,
+    "interior_return_code": 0
+  },
+  "100.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7999477386474609,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0396361351013184,
+    "interior_return_code": 0
+  },
+  "101.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7648203372955322,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9659802913665771,
+    "interior_return_code": 0
+  },
+  "102.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6300308704376221,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9393186569213867,
+    "interior_return_code": 0
+  },
+  "103.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7673583030700684,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9232180118560791,
+    "interior_return_code": 0
+  },
+  "104.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7518811225891113,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.320814609527588,
+    "interior_return_code": 0
+  },
+  "105.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7029464244842529,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9306597709655762,
+    "interior_return_code": 0
+  },
+  "106.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7093632221221924,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2249128818511963,
+    "interior_return_code": 0
+  },
+  "107.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.771737813949585,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.111703872680664,
+    "interior_return_code": 0
+  },
+  "108.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6647624969482422,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.862870454788208,
+    "interior_return_code": 0
+  },
+  "109.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8126461505889893,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0387587547302246,
+    "interior_return_code": 0
+  },
+  "11.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5632104873657227,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9999971389770508,
+    "interior_return_code": 0
+  },
+  "110.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7865419387817383,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.002204179763794,
+    "interior_return_code": 0
+  },
+  "111.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5983762741088867,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8864505290985107,
+    "interior_return_code": 0
+  },
+  "112.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7458171844482422,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9289648532867432,
+    "interior_return_code": 0
+  },
+  "113.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8213777542114258,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0496516227722168,
+    "interior_return_code": 0
+  },
+  "114.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7754108905792236,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1971447467803955,
+    "interior_return_code": 0
+  },
+  "115.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6923127174377441,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9245531558990479,
+    "interior_return_code": 0
+  },
+  "116.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7988109588623047,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9184134006500244,
+    "interior_return_code": 0
+  },
+  "117.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7249813079833984,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2213315963745117,
+    "interior_return_code": 0
+  },
+  "118.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6715893745422363,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0162460803985596,
+    "interior_return_code": 0
+  },
+  "119.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7897593975067139,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9567527770996094,
+    "interior_return_code": 0
+  },
+  "12.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7393486499786377,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8961153030395508,
+    "interior_return_code": 0
+  },
+  "120.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.778733491897583,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.3434419631958008,
+    "interior_return_code": 0
+  },
+  "121.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5749788284301758,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9973204135894775,
+    "interior_return_code": 0
+  },
+  "122.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6663305759429932,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9656894207000732,
+    "interior_return_code": 0
+  },
+  "123.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7229485511779785,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1142578125,
+    "interior_return_code": 0
+  },
+  "124.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7030644416809082,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1216206550598145,
+    "interior_return_code": 0
+  },
+  "125.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6116657257080078,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9205567836761475,
+    "interior_return_code": 0
+  },
+  "126.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7768888473510742,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.5788547992706299,
+    "interior_return_code": 0
+  },
+  "127.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6796174049377441,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9988031387329102,
+    "interior_return_code": 0
+  },
+  "128.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7455065250396729,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0059425830841064,
+    "interior_return_code": 0
+  },
+  "129.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6645824909210205,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0064408779144287,
+    "interior_return_code": 0
+  },
+  "13.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7939329147338867,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0403008460998535,
+    "interior_return_code": 0
+  },
+  "130.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6092917919158936,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8836092948913574,
+    "interior_return_code": 0
+  },
+  "131.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6310088634490967,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9259300231933594,
+    "interior_return_code": 0
+  },
+  "132.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7737879753112793,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8829522132873535,
+    "interior_return_code": 0
+  },
+  "133.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6186585426330566,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9207611083984375,
+    "interior_return_code": 0
+  },
+  "134.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7336399555206299,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.501115083694458,
+    "interior_return_code": 0
+  },
+  "135.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7161047458648682,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1195456981658936,
+    "interior_return_code": 0
+  },
+  "136.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6309831142425537,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.891010046005249,
+    "interior_return_code": 0
+  },
+  "137.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7542581558227539,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9240221977233887,
+    "interior_return_code": 0
+  },
+  "138.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6674942970275879,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0801947116851807,
+    "interior_return_code": 0
+  },
+  "139.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6392204761505127,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.850538969039917,
+    "interior_return_code": 0
+  },
+  "14.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5784790515899658,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8832900524139404,
+    "interior_return_code": 0
+  },
+  "140.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7207515239715576,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9306161403656006,
+    "interior_return_code": 0
+  },
+  "141.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6301779747009277,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.920867919921875,
+    "interior_return_code": 0
+  },
+  "142.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6003730297088623,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9996368885040283,
+    "interior_return_code": 0
+  },
+  "143.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7210993766784668,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9241204261779785,
+    "interior_return_code": 0
+  },
+  "144.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7983212471008301,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.999809741973877,
+    "interior_return_code": 0
+  },
+  "145.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.621405839920044,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9294083118438721,
+    "interior_return_code": 0
+  },
+  "146.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8647351264953613,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.887850284576416,
+    "interior_return_code": 0
+  },
+  "147.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6502926349639893,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8567230701446533,
+    "interior_return_code": 0
+  },
+  "148.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7381606101989746,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9567697048187256,
+    "interior_return_code": 0
+  },
+  "149.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7746820449829102,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8915793895721436,
+    "interior_return_code": 0
+  },
+  "15.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8235297203063965,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1572582721710205,
+    "interior_return_code": 0
+  },
+  "150.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7401401996612549,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.6952910423278809,
+    "interior_return_code": 0
+  },
+  "151.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5367443561553955,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9679584503173828,
+    "interior_return_code": 0
+  },
+  "152.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.612140417098999,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8927159309387207,
+    "interior_return_code": 0
+  },
+  "153.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9311139583587646,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1394314765930176,
+    "interior_return_code": 0
+  },
+  "154.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7021753787994385,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8849151134490967,
+    "interior_return_code": 0
+  },
+  "155.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8259563446044922,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9618971347808838,
+    "interior_return_code": 0
+  },
+  "156.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7646291255950928,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0353643894195557,
+    "interior_return_code": 0
+  },
+  "157.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6312220096588135,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.944617509841919,
+    "interior_return_code": 0
+  },
+  "158.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6484353542327881,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8060915470123291,
+    "interior_return_code": 0
+  },
+  "159.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6545841693878174,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9999632835388184,
+    "interior_return_code": 0
+  },
+  "16.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5761058330535889,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9286737442016602,
+    "interior_return_code": 0
+  },
+  "160.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.4843113422393799,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8472459316253662,
+    "interior_return_code": 0
+  },
+  "161.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8307266235351562,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0088987350463867,
+    "interior_return_code": 0
+  },
+  "162.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6593871116638184,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.033667802810669,
+    "interior_return_code": 0
+  },
+  "163.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6850998401641846,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2300291061401367,
+    "interior_return_code": 0
+  },
+  "164.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6969549655914307,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8809983730316162,
+    "interior_return_code": 0
+  },
+  "165.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6395962238311768,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9948010444641113,
+    "interior_return_code": 0
+  },
+  "166.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6109156608581543,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9271843433380127,
+    "interior_return_code": 0
+  },
+  "167.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7778956890106201,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9252033233642578,
+    "interior_return_code": 0
+  },
+  "168.lp": {
+    "status": "optimal",
+    "simplex_time": 0.8015439510345459,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.570481538772583,
+    "interior_return_code": 0
+  },
+  "169.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6694338321685791,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9428393840789795,
+    "interior_return_code": 0
+  },
+  "17.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6941003799438477,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9635477066040039,
+    "interior_return_code": 0
+  },
+  "170.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7121715545654297,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9329302310943604,
+    "interior_return_code": 0
+  },
+  "171.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6320555210113525,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9254343509674072,
+    "interior_return_code": 0
+  },
+  "172.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7701187133789062,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0553174018859863,
+    "interior_return_code": 0
+  },
+  "173.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7242324352264404,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0412137508392334,
+    "interior_return_code": 0
+  },
+  "174.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7352275848388672,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2344388961791992,
+    "interior_return_code": 0
+  },
+  "175.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8200671672821045,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9206118583679199,
+    "interior_return_code": 0
+  },
+  "176.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5646493434906006,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0401983261108398,
+    "interior_return_code": 0
+  },
+  "177.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6168479919433594,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9653224945068359,
+    "interior_return_code": 0
+  },
+  "178.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6155905723571777,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9667010307312012,
+    "interior_return_code": 0
+  },
+  "179.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8066797256469727,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0727920532226562,
+    "interior_return_code": 0
+  },
+  "18.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7678968906402588,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.242568016052246,
+    "interior_return_code": 0
+  },
+  "180.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6604111194610596,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0845603942871094,
+    "interior_return_code": 0
+  },
+  "181.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7332558631896973,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9576067924499512,
+    "interior_return_code": 0
+  },
+  "182.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9468448162078857,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9622735977172852,
+    "interior_return_code": 0
+  },
+  "183.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7805006504058838,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1346690654754639,
+    "interior_return_code": 0
+  },
+  "184.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6699304580688477,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0331239700317383,
+    "interior_return_code": 0
+  },
+  "185.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7169127464294434,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9623057842254639,
+    "interior_return_code": 0
+  },
+  "186.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7753257751464844,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.099008560180664,
+    "interior_return_code": 0
+  },
+  "187.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7770054340362549,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0787286758422852,
+    "interior_return_code": 0
+  },
+  "188.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7065784931182861,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8933830261230469,
+    "interior_return_code": 0
+  },
+  "189.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6743745803833008,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0359981060028076,
+    "interior_return_code": 0
+  },
+  "19.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7333533763885498,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0032281875610352,
+    "interior_return_code": 0
+  },
+  "190.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6835696697235107,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0830307006835938,
+    "interior_return_code": 0
+  },
+  "191.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6912326812744141,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.012145757675171,
+    "interior_return_code": 0
+  },
+  "192.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6764407157897949,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8959660530090332,
+    "interior_return_code": 0
+  },
+  "193.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5665020942687988,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8486833572387695,
+    "interior_return_code": 0
+  },
+  "194.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6404149532318115,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9658956527709961,
+    "interior_return_code": 0
+  },
+  "195.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7447302341461182,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9217932224273682,
+    "interior_return_code": 0
+  },
+  "196.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8360881805419922,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0439887046813965,
+    "interior_return_code": 0
+  },
+  "197.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8370203971862793,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9613862037658691,
+    "interior_return_code": 0
+  },
+  "198.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8082520961761475,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.059587001800537,
+    "interior_return_code": 0
+  },
+  "199.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6976635456085205,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.047945261001587,
+    "interior_return_code": 0
+  },
+  "2.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9311318397521973,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.3187172412872314,
+    "interior_return_code": 0
+  },
+  "20.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6739814281463623,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1579616069793701,
+    "interior_return_code": 0
+  },
+  "200.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7626166343688965,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9655680656433105,
+    "interior_return_code": 0
+  },
+  "201.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6571187973022461,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.99945068359375,
+    "interior_return_code": 0
+  },
+  "202.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8060576915740967,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9284753799438477,
+    "interior_return_code": 0
+  },
+  "203.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7134895324707031,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8488326072692871,
+    "interior_return_code": 0
+  },
+  "204.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7309408187866211,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9251766204833984,
+    "interior_return_code": 0
+  },
+  "205.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7272937297821045,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9327058792114258,
+    "interior_return_code": 0
+  },
+  "206.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7029972076416016,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8886251449584961,
+    "interior_return_code": 0
+  },
+  "207.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6940605640411377,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9557909965515137,
+    "interior_return_code": 0
+  },
+  "208.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5215766429901123,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.848808765411377,
+    "interior_return_code": 0
+  },
+  "209.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7269105911254883,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2321646213531494,
+    "interior_return_code": 0
+  },
+  "21.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8383231163024902,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1523678302764893,
+    "interior_return_code": 0
+  },
+  "210.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.607717752456665,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8857777118682861,
+    "interior_return_code": 0
+  },
+  "211.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6401453018188477,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9213089942932129,
+    "interior_return_code": 0
+  },
+  "212.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6809978485107422,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9658312797546387,
+    "interior_return_code": 0
+  },
+  "213.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.633312463760376,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9275014400482178,
+    "interior_return_code": 0
+  },
+  "214.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8138840198516846,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0157241821289062,
+    "interior_return_code": 0
+  },
+  "215.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7422952651977539,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9652070999145508,
+    "interior_return_code": 0
+  },
+  "216.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7691411972045898,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2050180435180664,
+    "interior_return_code": 0
+  },
+  "217.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7935435771942139,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8527567386627197,
+    "interior_return_code": 0
+  },
+  "218.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8063511848449707,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.193985939025879,
+    "interior_return_code": 0
+  },
+  "219.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6203742027282715,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0063531398773193,
+    "interior_return_code": 0
+  },
+  "22.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6128811836242676,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0620901584625244,
+    "interior_return_code": 0
+  },
+  "220.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6848573684692383,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8506391048431396,
+    "interior_return_code": 0
+  },
+  "221.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6817283630371094,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.113389253616333,
+    "interior_return_code": 0
+  },
+  "222.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7308142185211182,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0065078735351562,
+    "interior_return_code": 0
+  },
+  "223.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7082669734954834,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0129914283752441,
+    "interior_return_code": 0
+  },
+  "224.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7300851345062256,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1588191986083984,
+    "interior_return_code": 0
+  },
+  "225.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6857490539550781,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0727438926696777,
+    "interior_return_code": 0
+  },
+  "226.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8867166042327881,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1658437252044678,
+    "interior_return_code": 0
+  },
+  "227.lp": {
+    "status": "optimal",
+    "simplex_time": 0.7888426780700684,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2546753883361816,
+    "interior_return_code": 0
+  },
+  "228.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7719135284423828,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.5451030731201172,
+    "interior_return_code": 0
+  },
+  "229.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7374215126037598,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1128251552581787,
+    "interior_return_code": 0
+  },
+  "23.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7828867435455322,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0401208400726318,
+    "interior_return_code": 0
+  },
+  "230.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7129991054534912,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9996738433837891,
+    "interior_return_code": 0
+  },
+  "231.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8018836975097656,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.3814570903778076,
+    "interior_return_code": 0
+  },
+  "232.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8143067359924316,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1554019451141357,
+    "interior_return_code": 0
+  },
+  "233.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.8170206546783447,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.607893466949463,
+    "interior_return_code": 0
+  },
+  "234.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.614504337310791,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9308152198791504,
+    "interior_return_code": 0
+  },
+  "235.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6831440925598145,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9247314929962158,
+    "interior_return_code": 0
+  },
+  "236.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6742534637451172,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9579658508300781,
+    "interior_return_code": 0
+  },
+  "237.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.628065824508667,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9295825958251953,
+    "interior_return_code": 0
+  },
+  "238.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7090885639190674,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.5332074165344238,
+    "interior_return_code": 0
+  },
+  "239.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9503617286682129,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0756494998931885,
+    "interior_return_code": 0
+  },
+  "24.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7425756454467773,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9403059482574463,
+    "interior_return_code": 0
+  },
+  "240.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6295981407165527,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8936262130737305,
+    "interior_return_code": 0
+  },
+  "241.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7526540756225586,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8083360195159912,
+    "interior_return_code": 0
+  },
+  "242.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8293349742889404,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.156435489654541,
+    "interior_return_code": 0
+  },
+  "243.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6348984241485596,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9310770034790039,
+    "interior_return_code": 0
+  },
+  "244.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6844487190246582,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0791082382202148,
+    "interior_return_code": 0
+  },
+  "245.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7171084880828857,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9617958068847656,
+    "interior_return_code": 0
+  },
+  "246.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5634996891021729,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8849735260009766,
+    "interior_return_code": 0
+  },
+  "247.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7482113838195801,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9790987968444824,
+    "interior_return_code": 0
+  },
+  "248.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7163858413696289,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.3480448722839355,
+    "interior_return_code": 0
+  },
+  "249.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.703765869140625,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0453228950500488,
+    "interior_return_code": 0
+  },
+  "25.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6701910495758057,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.962127685546875,
+    "interior_return_code": 0
+  },
+  "250.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8217630386352539,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.011070728302002,
+    "interior_return_code": 0
+  },
+  "26.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8115959167480469,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9273831844329834,
+    "interior_return_code": 0
+  },
+  "27.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6706192493438721,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.954981803894043,
+    "interior_return_code": 0
+  },
+  "28.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6592366695404053,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0745465755462646,
+    "interior_return_code": 0
+  },
+  "29.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7882347106933594,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8932664394378662,
+    "interior_return_code": 0
+  },
+  "3.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8520538806915283,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1143584251403809,
+    "interior_return_code": 0
+  },
+  "30.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7181470394134521,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9715542793273926,
+    "interior_return_code": 0
+  },
+  "31.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8311541080474854,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.141676902770996,
+    "interior_return_code": 0
+  },
+  "32.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7375185489654541,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9990694522857666,
+    "interior_return_code": 0
+  },
+  "33.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7512385845184326,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.052422285079956,
+    "interior_return_code": 0
+  },
+  "34.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6157681941986084,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9194900989532471,
+    "interior_return_code": 0
+  },
+  "35.lp": {
+    "status": "optimal",
+    "simplex_time": 0.8605926036834717,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.5721378326416016,
+    "interior_return_code": 0
+  },
+  "36.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7886390686035156,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9692773818969727,
+    "interior_return_code": 0
+  },
+  "37.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6178905963897705,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.904951810836792,
+    "interior_return_code": 0
+  },
+  "38.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6974132061004639,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1998951435089111,
+    "interior_return_code": 0
+  },
+  "39.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7939786911010742,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0745391845703125,
+    "interior_return_code": 0
+  },
+  "4.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6922683715820312,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8895852565765381,
+    "interior_return_code": 0
+  },
+  "40.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7977967262268066,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0488955974578857,
+    "interior_return_code": 0
+  },
+  "41.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7193286418914795,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.92315673828125,
+    "interior_return_code": 0
+  },
+  "42.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.789604663848877,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9618144035339355,
+    "interior_return_code": 0
+  },
+  "43.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5632340908050537,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.001767873764038,
+    "interior_return_code": 0
+  },
+  "44.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7863647937774658,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8871884346008301,
+    "interior_return_code": 0
+  },
+  "45.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.907001256942749,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.4784908294677734,
+    "interior_return_code": 0
+  },
+  "46.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6787619590759277,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0043339729309082,
+    "interior_return_code": 0
+  },
+  "47.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8420536518096924,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9324097633361816,
+    "interior_return_code": 0
+  },
+  "48.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.5566418170928955,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8788409233093262,
+    "interior_return_code": 0
+  },
+  "49.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7873144149780273,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9617698192596436,
+    "interior_return_code": 0
+  },
+  "5.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.712334156036377,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.012566089630127,
+    "interior_return_code": 0
+  },
+  "50.lp": {
+    "status": "optimal",
+    "simplex_time": 0.8056471347808838,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2737038135528564,
+    "interior_return_code": 0
+  },
+  "51.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7198922634124756,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.7281913757324219,
+    "interior_return_code": 0
+  },
+  "52.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6214041709899902,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0062055587768555,
+    "interior_return_code": 0
+  },
+  "53.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8868834972381592,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9615447521209717,
+    "interior_return_code": 0
+  },
+  "54.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9212741851806641,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.6908626556396484,
+    "interior_return_code": 0
+  },
+  "55.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7897698879241943,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8873209953308105,
+    "interior_return_code": 0
+  },
+  "56.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7311623096466064,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9277009963989258,
+    "interior_return_code": 0
+  },
+  "57.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7518236637115479,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.4574196338653564,
+    "interior_return_code": 0
+  },
+  "58.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7542319297790527,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0061109066009521,
+    "interior_return_code": 0
+  },
+  "59.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6920416355133057,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.2649483680725098,
+    "interior_return_code": 0
+  },
+  "6.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.781963586807251,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8916487693786621,
+    "interior_return_code": 0
+  },
+  "60.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7061243057250977,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0782663822174072,
+    "interior_return_code": 0
+  },
+  "61.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7753036022186279,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1159281730651855,
+    "interior_return_code": 0
+  },
+  "62.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.789945125579834,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0760369300842285,
+    "interior_return_code": 0
+  },
+  "63.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8981125354766846,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8858625888824463,
+    "interior_return_code": 0
+  },
+  "64.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7129812240600586,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0006778240203857,
+    "interior_return_code": 0
+  },
+  "65.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6959121227264404,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8860766887664795,
+    "interior_return_code": 0
+  },
+  "66.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6592707633972168,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.957963228225708,
+    "interior_return_code": 0
+  },
+  "67.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7574582099914551,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9698584079742432,
+    "interior_return_code": 0
+  },
+  "68.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9744102954864502,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.018693447113037,
+    "interior_return_code": 0
+  },
+  "69.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6300606727600098,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0100820064544678,
+    "interior_return_code": 0
+  },
+  "7.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7175769805908203,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0403118133544922,
+    "interior_return_code": 0
+  },
+  "70.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6283178329467773,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0448768138885498,
+    "interior_return_code": 0
+  },
+  "71.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8452203273773193,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9608426094055176,
+    "interior_return_code": 0
+  },
+  "72.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7999157905578613,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1624171733856201,
+    "interior_return_code": 0
+  },
+  "73.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6642584800720215,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.034963846206665,
+    "interior_return_code": 0
+  },
+  "74.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6706361770629883,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9988992214202881,
+    "interior_return_code": 0
+  },
+  "75.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7041699886322021,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9625167846679688,
+    "interior_return_code": 0
+  },
+  "76.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7514681816101074,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9352207183837891,
+    "interior_return_code": 0
+  },
+  "77.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.6923673152923584,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8837366104125977,
+    "interior_return_code": 0
+  },
+  "78.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8009533882141113,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9231007099151611,
+    "interior_return_code": 0
+  },
+  "79.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7653906345367432,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0830929279327393,
+    "interior_return_code": 0
+  },
+  "8.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8110144138336182,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8851828575134277,
+    "interior_return_code": 0
+  },
+  "80.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6533565521240234,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0769903659820557,
+    "interior_return_code": 0
+  },
+  "81.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7597758769989014,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9964866638183594,
+    "interior_return_code": 0
+  },
+  "82.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7212443351745605,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9575216770172119,
+    "interior_return_code": 0
+  },
+  "83.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7393796443939209,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.6995570659637451,
+    "interior_return_code": 0
+  },
+  "84.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.673715353012085,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0567874908447266,
+    "interior_return_code": 0
+  },
+  "85.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9074184894561768,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.4349164962768555,
+    "interior_return_code": 0
+  },
+  "86.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.728766918182373,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9674785137176514,
+    "interior_return_code": 0
+  },
+  "87.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.9247145652770996,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.1285369396209717,
+    "interior_return_code": 0
+  },
+  "88.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.7152330875396729,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.084261417388916,
+    "interior_return_code": 0
+  },
+  "89.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6081013679504395,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8935725688934326,
+    "interior_return_code": 0
+  },
+  "9.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7225363254547119,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8835928440093994,
+    "interior_return_code": 0
+  },
+  "90.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7692697048187256,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9272992610931396,
+    "interior_return_code": 0
+  },
+  "91.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6382296085357666,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8942539691925049,
+    "interior_return_code": 0
+  },
+  "92.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7798089981079102,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.0172812938690186,
+    "interior_return_code": 0
+  },
+  "93.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7454819679260254,
+    "simplex_return_code": 0,
+    "interior_point_time": 1.3499503135681152,
+    "interior_return_code": 0
+  },
+  "94.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.8530232906341553,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9698705673217773,
+    "interior_return_code": 0
+  },
+  "95.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7693378925323486,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8848705291748047,
+    "interior_return_code": 0
+  },
+  "96.lp": {
+    "status": "infeasible",
+    "simplex_time": 0.6452455520629883,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9629623889923096,
+    "interior_return_code": 0
+  },
+  "97.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7919237613677979,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8473474979400635,
+    "interior_return_code": 0
+  },
+  "98.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7753772735595703,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.8880021572113037,
+    "interior_return_code": 0
+  },
+  "99.lp": {
+    "status": "unbounded",
+    "simplex_time": 0.7979867458343506,
+    "simplex_return_code": 0,
+    "interior_point_time": 0.9613358974456787,
+    "interior_return_code": 0
+  }
+}
